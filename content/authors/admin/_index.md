@@ -24,7 +24,7 @@ role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: KAIST Networking and Mobile System Lab
+  - name: KAIST Networking & Mobile System Lab
     url: https://nmsl.kaist.ac.kr/
 
 # Social network links
@@ -54,7 +54,7 @@ interests:
 
 education:
   - area: MS & PhD Integrated in Electrical Engineering
-    institution: Stanford University
+    institution: Korea Advanced Institute of Science and Technology (KAIST)
     date_start: 2022-03-01
     date_end: 
     summary: |
@@ -184,4 +184,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Ph.D. student in Networking & Mobile Systems Lab at Korea Advanced Institute of Science and Technology (KAIST), advised by professor Sung-Ju Lee. Passionate about developing on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments.
