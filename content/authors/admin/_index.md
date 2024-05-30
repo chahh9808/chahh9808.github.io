@@ -24,7 +24,7 @@ role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Networking and Mobile System Lab
+  - name: KAIST Networking and Mobile System Lab
     url: https://nmsl.kaist.ac.kr/
 
 # Social network links
@@ -47,42 +47,43 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - On-device Artificial Intelligence
+  - Domain Adaptation
+  - Self-Supervised Learning
+  - Mobile Sensing
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: MS & PhD Integrated in Electrical Engineering
     institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-03-01
+    date_end: 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Advisor: Sung-Ju Lee
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BS in Electrical Engineering
+    institution: Korea Advanced Institute of Science and Technology (KAIST)
+    date_start: 2017-03-01
+    date_end: 2022-02-28
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.85/4.3
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # Courses included:
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
