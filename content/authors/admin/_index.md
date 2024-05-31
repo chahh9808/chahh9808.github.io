@@ -35,10 +35,10 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/h.heon
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/chahh9808
   - icon: brands/linkedin
     url: https://www.linkedin.com/
   - icon: academicons/google-scholar
@@ -53,7 +53,7 @@ interests:
   - Mobile Sensing
 
 education:
-  - area: MS & PhD Integrated in Electrical Engineering
+  - area: MS & PhD in Electrical Engineering
     institution: Korea Advanced Institute of Science and Technology (KAIST)
     date_start: 2022-03-01
     date_end: 
@@ -80,10 +80,10 @@ education:
     summary: |
       GPA: 3.85/4.3
       
-      # Courses included:
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -184,4 +184,7 @@ awards:
 
 ## About Me
 
-I am a Ph.D. student in Networking & Mobile Systems Lab at Korea Advanced Institute of Science and Technology (KAIST), advised by professor Sung-Ju Lee. Passionate about developing on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments.
+Hyeongheon Cha is a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Networking & Mobile Systems Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. {style="text-align: justify;"}
+
+Passionate about developing on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments. 
+Please reach out to collaborate 😃
