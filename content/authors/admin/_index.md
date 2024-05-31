@@ -185,6 +185,5 @@ awards:
 ## About Me
 
 I am a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Networking & Mobile Systems Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>.
-Passionate about developing
-###  on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments. 
+### Passionate about developing on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments. 
 Please reach out to collaborate 😃
