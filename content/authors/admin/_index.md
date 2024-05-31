@@ -34,17 +34,17 @@ profiles:
     url: 'mailto:hyeongheon@kaist.ac.kr'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/bro_heon
   - icon: brands/instagram
     url: https://www.instagram.com/h.heon
   - icon: brands/github
     url: https://github.com/chahh9808
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/chahh9808
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/chahh9808
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/chahh9808
 
 interests:
   - On-device Artificial Intelligence
