@@ -122,7 +122,7 @@ sections:
           - post
         exclude_featured: false
     design:
-      view: 3
+      view: 5
   - block: collection
     id: papers
     content:
