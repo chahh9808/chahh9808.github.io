@@ -86,7 +86,7 @@ sections:
     id: papers
     content:
       title: Publications
-      text: "hi"
+      text: ""
       filters:
         folders:
           - publication
