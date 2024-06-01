@@ -9,7 +9,7 @@ main:
     weight: 10
   - name: Papers
     url: /#papers
-    weight: 20
+    weight: 16
   # - name: Talks
   #   url: /#talks
   #   weight: 12
