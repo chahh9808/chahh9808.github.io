@@ -90,7 +90,8 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false
+        featured_only: true
+        # exclude_featured: false
     design:
       view: list
   # - block: collection
