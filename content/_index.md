@@ -138,17 +138,17 @@ sections:
   - block: markdown
     id: professional-experience
     content:
-      title: PROFESSIONAL EXPERIENCE
+      title: Professional Experiences
       text: |
         <style>
           .experience-section {
-            border-top: 2px solid #0033cc;
+            border-top: 2px solid #19F9D8;
             padding-top: 10px;
           }
           .experience-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #0033cc;
+            color: #19F9D8;
           }
           .experience-section p {
             margin: 5px 0;
@@ -179,17 +179,17 @@ sections:
   - block: markdown
     id: awards-honors
     content:
-      title: AWARDS & HONORS
+      title: Awards & Honors
       text: |
         <style>
           .awards-section {
-            border-top: 2px solid #0033cc;
+            border-top: 2px solid #19F9D8;
             padding-top: 10px;
           }
           .awards-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #0033cc;
+            color: #19F9D8;
           }
           .awards-section p {
             margin: 5px 0;
@@ -215,17 +215,17 @@ sections:
   - block: markdown
     id: leadership-experience
     content:
-      title: LEADERSHIP EXPERIENCE
+      title: Leadership Experiences
       text: |
         <style>
           .leadership-section {
-            border-top: 2px solid #0033cc;
+            border-top: 2px solid #19F9D8;
             padding-top: 10px;
           }
           .leadership-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #0033cc;
+            color: #19F9D8;
           }
           .leadership-section p {
             margin: 5px 0;
@@ -254,11 +254,11 @@ sections:
   - block: markdown
     id: skills
     content:
-      title: SKILLS
+      title: Skills
       text: |
         <style>
           .skills-section {
-            border-top: 2px solid #0033cc;
+            border-top: 2px solid #19F9D8;
             padding-top: 10px;
           }
           .skills-section p {
