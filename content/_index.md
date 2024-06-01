@@ -88,7 +88,7 @@ sections:
     content:
       title: '📚 News'
       subtitle: ''
-      text:
+      text: |-
         <ul>
           <li>Apr. 2024 <span class="icon">📚</span> Technical Programm Committee at FairComp @ UbiComp/ISWC '24</li>
           <li>Mar. 2024 <span class="icon">📚</span> Technical Programm Committee at UbiComp/ISWC '24</li>
