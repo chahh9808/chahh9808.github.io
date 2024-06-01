@@ -142,13 +142,13 @@ sections:
       text: |
         <style>
           .experience-section {
-            border-top: 2px solid #225E4B;
+            border-top: 2px solid #059669;
             padding-top: 10px;
           }
           .experience-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #225E4B;
+            color: #059669;
           }
           .experience-section p {
             margin: 5px 0;
@@ -183,13 +183,13 @@ sections:
       text: |
         <style>
           .leadership-section {
-            border-top: 2px solid #225E4B;
+            border-top: 2px solid #059669;
             padding-top: 10px;
           }
           .leadership-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #225E4B;
+            color: #059669;
           }
           .leadership-section p {
             margin: 5px 0;
@@ -222,13 +222,13 @@ sections:
       text: |
         <style>
           .awards-section {
-            border-top: 2px solid #225E4B;
+            border-top: 2px solid #059669;
             padding-top: 10px;
           }
           .awards-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #225E4B;
+            color: #059669;
           }
           .awards-section p {
             margin: 5px 0;
@@ -258,7 +258,7 @@ sections:
       text: |
         <style>
           .skills-section {
-            border-top: 2px solid #225E4B;
+            border-top: 2px solid #059669;
             padding-top: 10px;
           }
           .skills-section p {
