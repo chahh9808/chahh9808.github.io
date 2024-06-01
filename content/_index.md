@@ -89,7 +89,7 @@ sections:
       title: 'News'
       subtitle: ''
       text: |-
-        <ul style="font-size: 14px;">
+        <ul style="font-size: 16px;">
           <li>Jun. 2024 <span class="icon">✈️</span> MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)</li>
           <li>Jun. 2024 <span class="icon">🌟</span> Graduate Student Council President of KAIST EE</li>
           <li>Apr. 2024 <span class="icon">📝</span> Poster accepted at MobiSys '24</li>
