@@ -1,7 +1,7 @@
 ---
 title: Development of Novel Networking Technology for Micro-Scale Cluster Robots
 summary: "Developing MANET: distributed resource allocation algorithms, routing protocols, and routing metrics suitable for cluster robot operation"
-date: 2023-02-01
+date: 2023-02-11
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.

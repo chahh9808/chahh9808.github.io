@@ -1,7 +1,7 @@
 ---
 title: Translating Knowledge from Large-Scale Images to IMU Sensing Applications
 summary: "Adapts pre-trained representation from large-scale images to diverse IMU sensing tasks"
-date: 2023-01-01
+date: 2024-02-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
