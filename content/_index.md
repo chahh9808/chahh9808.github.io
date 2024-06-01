@@ -85,6 +85,7 @@ sections:
   #     username: admin
   
   - block: markdown
+    id: news
     content:
       title: 'News'
       subtitle: ''
