@@ -37,7 +37,7 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: publication
+      page_type: post
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -55,10 +55,11 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: list
+      # view: date-title-summary
       # Reduce spacing
       spacing:
-        padding: [0, 0, 10, 0]
+        padding: [0, 0, 7, 0]
 
 
   # - block: 'github.juiceleee.news'
