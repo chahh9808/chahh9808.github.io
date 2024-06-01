@@ -39,12 +39,12 @@ profiles:
     url: https://www.instagram.com/h.heon
   - icon: brands/github
     url: https://github.com/chahh9808
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/chahh9808
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/chahh9808
   - icon: academicons/google-scholar
     url: https://scholar.google.com/chahh9808
-  - icon: academicons/orcid
-    url: https://orcid.org/chahh9808
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/chahh9808
 
 interests:
   - On-device Artificial Intelligence
@@ -184,6 +184,6 @@ awards:
 
 ## About Me
 
-I am a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Networking & Mobile Systems Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. I was a research intern at <a href="https://inbodyusa.com/">InBody</a>, and I received my B.S. in Electrical Engineering from KAIST with <strong>Magna Cum Laude</strong>.
+I am a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Networking & Mobile Systems Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. I was a research intern at <a href="https://inbodyusa.com/">InBody</a> (2020), and I received my B.S. in Electrical Engineering from KAIST with <strong>Magna Cum Laude</strong>.
 ### Passionate about developing on-device AI systems, aim to create cutting-edge, adaptable, and efficient software for real-world environments. 
 Please reach out to collaborate 😃
