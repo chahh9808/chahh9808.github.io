@@ -140,71 +140,213 @@ sections:
     content:
       title: PROFESSIONAL EXPERIENCE
       text: |
-        **02/2021 – 02/2022**  
-        **KAIST, Network and Mobile System Lab**  
-        *Undergraduate Research Intern*  
-        Daejeon, Republic of Korea
+        <style>
+          .experience-section {
+            border-top: 2px solid #0033cc;
+            padding-top: 10px;
+          }
+          .experience-section h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #0033cc;
+          }
+          .experience-section p {
+            margin: 5px 0;
+            font-size: 14px;
+          }
+          .experience-section .location {
+            font-style: italic;
+            color: gray;
+          }
+        </style>
+        <div class="experience-section">
+          <p><strong>02/2021 – 02/2022</strong></p>
+          <h3>KAIST, Network and Mobile System Lab</h3>
+          <p>Undergraduate Research Intern</p>
+          <p class="location">Daejeon, Republic of Korea</p>
 
-        **02/2020 – 08/2020**  
-        **InBody Co., Future Innovation Team**  
-        *Research Intern*  
-        Seoul, Republic of Korea
+          <p><strong>02/2020 – 08/2020</strong></p>
+          <h3>InBody Co., Future Innovation Team</h3>
+          <p>Research Intern</p>
+          <p class="location">Seoul, Republic of Korea</p>
 
-        **08/2019 – 09/2019**  
-        **KAIST, Smart and Mobile System Lab**  
-        *Individual Research Intern*  
-        Daejeon, Republic of Korea
+          <p><strong>08/2019 – 09/2019</strong></p>
+          <h3>KAIST, Smart and Mobile System Lab</h3>
+          <p>Individual Research Intern</p>
+          <p class="location">Daejeon, Republic of Korea</p>
+        </div>
 
   - block: markdown
     id: awards-honors
     content:
       title: AWARDS & HONORS
       text: |
-        **2022**  
-        **Magna Cum Laude**  
-        *Korea Advanced Institute of Science and Technology*
+        <style>
+          .awards-section {
+            border-top: 2px solid #0033cc;
+            padding-top: 10px;
+          }
+          .awards-section h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #0033cc;
+          }
+          .awards-section p {
+            margin: 5px 0;
+            font-size: 14px;
+          }
+        </style>
+        <div class="awards-section">
+          <p><strong>2022</strong></p>
+          <h3>Magna Cum Laude</h3>
+          <p>Korea Advanced Institute of Science and Technology</p>
 
-        **2019**  
-        **Noyeop Cultural Foundation Scholarship**  
-        *Noyeop Cultural Foundation*  
-        One person per department, provided until graduation
+          <p><strong>2019</strong></p>
+          <h3>Noyeop Cultural Foundation Scholarship</h3>
+          <p>Noyeop Cultural Foundation</p>
+          <p>One person per department, provided until graduation</p>
 
-        **2017**  
-        **Dean's list**  
-        *Korea Advanced Institute of Science and Technology*  
-        Outstanding student in the department
+          <p><strong>2017</strong></p>
+          <h3>Dean's list</h3>
+          <p>Korea Advanced Institute of Science and Technology</p>
+          <p>Outstanding student in the department</p>
+        </div>
 
   - block: markdown
     id: leadership-experience
     content:
       title: LEADERSHIP EXPERIENCE
       text: |
-        **2024 – 2024**  
-        **Graduate Student Council President**  
-        *KAIST School of Electrical Engineering*
+        <style>
+          .leadership-section {
+            border-top: 2px solid #0033cc;
+            padding-top: 10px;
+          }
+          .leadership-section h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #0033cc;
+          }
+          .leadership-section p {
+            margin: 5px 0;
+            font-size: 14px;
+          }
+        </style>
+        <div class="leadership-section">
+          <p><strong>2024 – 2024</strong></p>
+          <h3>Graduate Student Council President</h3>
+          <p>KAIST School of Electrical Engineering</p>
 
-        **2020 – 2020**  
-        **Team Leader**  
-        *InBody Co., Future Innovation Team*
+          <p><strong>2020 – 2020</strong></p>
+          <h3>Team Leader</h3>
+          <p>InBody Co., Future Innovation Team</p>
 
-        **2018 – 2019**  
-        **Undergraduate Student Council President**  
-        *KAIST School of Electrical Engineering*
+          <p><strong>2018 – 2019</strong></p>
+          <h3>Undergraduate Student Council President</h3>
+          <p>KAIST School of Electrical Engineering</p>
 
-        **2018 – 2019**  
-        **Freshman Program Designer**  
-        *Korea Institute of Science and Technology*  
-        Design and operate special classes and programs for KAIST freshmen
+          <p><strong>2018 – 2019</strong></p>
+          <h3>Freshman Program Designer</h3>
+          <p>Korea Institute of Science and Technology</p>
+          <p>Design and operate special classes and programs for KAIST freshmen</p>
+        </div>
 
   - block: markdown
     id: skills
     content:
       title: SKILLS
       text: |
-        **Programming** — Python, C, C++, Java  
-        **Machine Learning** — Pytorch, Tensorflow, Tensorflow Lite  
-        **Hardware Prototyping** — Arduino, RaspberryPi, Qorvo  
-        **Network Simulation** — NS3 simulator
+        <style>
+          .skills-section {
+            border-top: 2px solid #0033cc;
+            padding-top: 10px;
+          }
+          .skills-section p {
+            margin: 5px 0;
+            font-size: 14px;
+          }
+          .skills-section .skill-category {
+            font-weight: bold;
+          }
+        </style>
+        <div class="skills-section">
+          <p><span class="skill-category">Programming</span> — Python, C, C++, Java</p>
+          <p><span class="skill-category">Machine Learning</span> — Pytorch, Tensorflow, Tensorflow Lite</p>
+          <p><span class="skill-category">Hardware Prototyping</span> — Arduino, RaspberryPi, Qorvo</p>
+          <p><span class="skill-category">Network Simulation</span> — NS3 simulator</p>
+        </div>
+
+
+  # - block: markdown
+  #   id: professional-experience
+  #   content:
+  #     title: PROFESSIONAL EXPERIENCE
+  #     text: |
+  #       **02/2021 – 02/2022**  
+  #       **KAIST, Network and Mobile System Lab**  
+  #       *Undergraduate Research Intern*  
+  #       Daejeon, Republic of Korea
+
+  #       **02/2020 – 08/2020**  
+  #       **InBody Co., Future Innovation Team**  
+  #       *Research Intern*  
+  #       Seoul, Republic of Korea
+
+  #       **08/2019 – 09/2019**  
+  #       **KAIST, Smart and Mobile System Lab**  
+  #       *Individual Research Intern*  
+  #       Daejeon, Republic of Korea
+
+  # - block: markdown
+  #   id: awards-honors
+  #   content:
+  #     title: AWARDS & HONORS
+  #     text: |
+  #       **2022**  
+  #       **Magna Cum Laude**  
+  #       *Korea Advanced Institute of Science and Technology*
+
+  #       **2019**  
+  #       **Noyeop Cultural Foundation Scholarship**  
+  #       *Noyeop Cultural Foundation*  
+  #       One person per department, provided until graduation
+
+  #       **2017**  
+  #       **Dean's list**  
+  #       *Korea Advanced Institute of Science and Technology*  
+  #       Outstanding student in the department
+
+  # - block: markdown
+  #   id: leadership-experience
+  #   content:
+  #     title: LEADERSHIP EXPERIENCE
+  #     text: |
+  #       **2024 – 2024**  
+  #       **Graduate Student Council President**  
+  #       *KAIST School of Electrical Engineering*
+
+  #       **2020 – 2020**  
+  #       **Team Leader**  
+  #       *InBody Co., Future Innovation Team*
+
+  #       **2018 – 2019**  
+  #       **Undergraduate Student Council President**  
+  #       *KAIST School of Electrical Engineering*
+
+  #       **2018 – 2019**  
+  #       **Freshman Program Designer**  
+  #       *Korea Institute of Science and Technology*  
+  #       Design and operate special classes and programs for KAIST freshmen
+
+  # - block: markdown
+  #   id: skills
+  #   content:
+  #     title: SKILLS
+  #     text: |
+  #       **Programming** — Python, C, C++, Java  
+  #       **Machine Learning** — Pytorch, Tensorflow, Tensorflow Lite  
+  #       **Hardware Prototyping** — Arduino, RaspberryPi, Qorvo  
+  #       **Network Simulation** — NS3 simulator
 
   # - block: collection
   #   id: talks
