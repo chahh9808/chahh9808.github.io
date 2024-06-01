@@ -13,16 +13,16 @@ authors:
 author_notes:
   - 'Equal contribution'
 
-date: '2024-04-19T00:00:00Z'
+date: '2024-06-3T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-06-03T00:00:00Z'
+publishDate: '2024-05-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['poster-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: "The 22nd ACM International Conference on Mobile Systems, Applications, and Services"
@@ -57,10 +57,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
