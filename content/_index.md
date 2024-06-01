@@ -30,36 +30,36 @@ sections:
           size: cover
           position: center
           parallax: true
-  - block: collection
-    id: news
-    content:
-      title: News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      # view: citation
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 7, 0]
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     # view: citation
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 7, 0]
 
 
   # - block: 'github.juiceleee.news'
@@ -86,28 +86,18 @@ sections:
   
   - block: markdown
     content:
-      title: '📚 News'
+      title: 'News'
       subtitle: ''
       text: |-
-        <ul>
-          <li>Apr. 2024 <span class="icon">📚</span> Technical Programm Committee at FairComp @ UbiComp/ISWC '24</li>
-          <li>Mar. 2024 <span class="icon">📚</span> Technical Programm Committee at UbiComp/ISWC '24</li>
-          <li>Mar. 2024 <span class="icon">📚</span> Artifact Evaluation Committee at ACM MobiSys '24</li>
-          <li>Mar. 2024 <span class="icon">📚</span> Visiting Scholar at the <a href="https://www.cam.ac.uk/">University of Cambridge</a>, Cambridge, UK</li>
-          <li>Feb. 2024 <span class="icon">📝</span> Paper accepted at CVPR '24</li>
-          <li>Jan. 2024 <span class="icon">🎤</span> <a href="https://hsn.org/">Session Speaker at HSN '24</a></li>
-          <li>Dec. 2023 <span class="icon">✈️</span> NeurIPS '23 @ New Orleans, LA (Dec. 10 - Dec. 15)</li>
-          <li>Oct. 2023 <span class="icon">📝</span> Paper accepted at ACM UbiComp '24</li>
-          <li>Oct. 2023 <span class="icon">🎤</span> <a href="https://ictc.org/">Special Session Speaker at ICTC '23</a></li>
-          <li>Oct. 2023 <span class="icon">✈️</span> UbiComp '23 @ Cancun, Mexico (Oct. 8 - 12)</li>
-          <li>Sep. 2023 <span class="icon">📝</span> Paper accepted at NeurIPS '23</li>
-          <li>Aug. 2023 <span class="icon">📚</span> Artifact Evaluation Committee at ACM MobiCom '23</li>
-          <li>Jun. 2023 <span class="icon">📚</span> Full-time Research Scientist at <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>, Cambridge, UK</li>
-          <li>May. 2023 <span class="icon">📝</span> Paper accepted at INTERSPEECH '23</li>
-          <li>Apr. 2023 <span class="icon">📝</span> Paper accepted at ACM UbiComp '23</li>
-          <li>Feb. 2023 <span class="icon">🏆</span> Best Ph.D. Dissertation Award from KAIST College of Engineering</li>
-          <li>Feb. 2023 <span class="icon">🏆</span> Best Ph.D. Dissertation Award from KAIST School of Computing</li>
-          <li>Jan. 2023 <span class="icon">🌟</span> <a href="https://aics.ee/">AI/CS/EE Rising Stars</a></li>
+        <ul style="font-size: 14px;">
+          <li>Jun. 2024 <span class="icon">✈️</span> MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)</li>
+          <li>Jun. 2024 <span class="icon">🌟</span> Graduate Student Council President of KAIST EE</li>
+          <li>Apr. 2024 <span class="icon">📝</span> Poster accepted at MobiSys '24</li>
+          <li>Feb. 2024 <span class="icon">📝</span> Submitted paper IMG2IMU </li>
+          <li>Aug. 2023 <span class="icon">📝</span> Submitted paper Sherlock </li>
+          <li>Mar. 2022 <span class="icon">📚</span> Joined Networking & Mobile System Lab at KAIST</li>
+          <li>Feb. 2022 <span class="icon">📚</span> Received B.S. degree at KAIST with Magna Cum Laude</li>
+          <li>Aug. 2020 <span class="icon">📚</span> Research Internship (Team leader) at <a href="https://inbodyusa.com/">InBody.co.</a>, Seoul, Korea</li>
         </ul>
     design:
       columns: '1'
@@ -122,7 +112,17 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-
+  - block: collection
+    id: papers
+    content:
+      title: Projects
+      text: ""
+      filters:
+        folders:
+          - project
+        exclude_featured: false
+    design:
+      view: compact
   - block: collection
     id: papers
     content:
