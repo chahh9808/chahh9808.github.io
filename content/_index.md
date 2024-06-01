@@ -56,7 +56,7 @@ sections:
     design:
       # Choose a layout view
       # view: citation
-      view: date-title
+      view: date-title-summary
       # Reduce spacing
       spacing:
         padding: [0, 0, 7, 0]
@@ -133,7 +133,7 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: 0
+      view: citation
 
   # - block: collection
   #   id: talks
