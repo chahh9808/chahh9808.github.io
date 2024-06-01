@@ -61,27 +61,27 @@ sections:
   #       padding: [0, 0, 10, 0]
 
 
-  - block: 'github.juiceleee.news'
-    id: news
-    content:
-      title: News
-      username: admin
-  - block: 'github.juiceleee.publication'
-    id: publication
-    content:
-      title: Publications
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-  - block: 'github.juiceleee.honor'
-    id: honor
-    content:
-      title: Honors
-      username: admin
-  - block: 'github.juiceleee.project'
-    id: project
-    content:
-      title: Projects
-      username: admin
+  # - block: 'github.juiceleee.news'
+  #   id: news
+  #   content:
+  #     title: News
+  #     username: admin
+  # - block: 'github.juiceleee.publication'
+  #   id: publication
+  #   content:
+  #     title: Publications
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  # - block: 'github.juiceleee.honor'
+  #   id: honor
+  #   content:
+  #     title: Honors
+  #     username: admin
+  # - block: 'github.juiceleee.project'
+  #   id: project
+  #   content:
+  #     title: Projects
+  #     username: admin
   
   # - block: markdown
   #   content:
