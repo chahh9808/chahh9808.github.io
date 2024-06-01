@@ -49,7 +49,7 @@ featured: true
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: 'publication/mobisys-poster/TESLA_Mobisys24_poster.pdf'
+url_poster: 'publication/tesla-poster/TESLA_Mobisys24_poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
