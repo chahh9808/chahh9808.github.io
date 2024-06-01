@@ -135,6 +135,76 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: markdown
+    id: professional-experience
+    content:
+      title: PROFESSIONAL EXPERIENCE
+      text: |
+        **02/2021 – 02/2022**  
+        **KAIST, Network and Mobile System Lab**  
+        *Undergraduate Research Intern*  
+        Daejeon, Republic of Korea
+
+        **02/2020 – 08/2020**  
+        **InBody Co., Future Innovation Team**  
+        *Research Intern*  
+        Seoul, Republic of Korea
+
+        **08/2019 – 09/2019**  
+        **KAIST, Smart and Mobile System Lab**  
+        *Individual Research Intern*  
+        Daejeon, Republic of Korea
+
+  - block: markdown
+    id: awards-honors
+    content:
+      title: AWARDS & HONORS
+      text: |
+        **2022**  
+        **Magna Cum Laude**  
+        *Korea Advanced Institute of Science and Technology*
+
+        **2019**  
+        **Noyeop Cultural Foundation Scholarship**  
+        *Noyeop Cultural Foundation*  
+        One person per department, provided until graduation
+
+        **2017**  
+        **Dean's list**  
+        *Korea Advanced Institute of Science and Technology*  
+        Outstanding student in the department
+
+  - block: markdown
+    id: leadership-experience
+    content:
+      title: LEADERSHIP EXPERIENCE
+      text: |
+        **2024 – 2024**  
+        **Graduate Student Council President**  
+        *KAIST School of Electrical Engineering*
+
+        **2020 – 2020**  
+        **Team Leader**  
+        *InBody Co., Future Innovation Team*
+
+        **2018 – 2019**  
+        **Undergraduate Student Council President**  
+        *KAIST School of Electrical Engineering*
+
+        **2018 – 2019**  
+        **Freshman Program Designer**  
+        *Korea Institute of Science and Technology*  
+        Design and operate special classes and programs for KAIST freshmen
+
+  - block: markdown
+    id: skills
+    content:
+      title: SKILLS
+      text: |
+        **Programming** — Python, C, C++, Java  
+        **Machine Learning** — Pytorch, Tensorflow, Tensorflow Lite  
+        **Hardware Prototyping** — Arduino, RaspberryPi, Qorvo  
+        **Network Simulation** — NS3 simulator
 
   # - block: collection
   #   id: talks

@@ -1,6 +1,6 @@
 ---
 title: On-device Efficient DNN Adaptation Framework for Real-time Applications
-summary: "Exploring model adaptation methods that enable real-time inference on extremely resource-constrained devices."
+summary: "Exploring model adaptation methods that enable real-time inference on extremely resource-constrained devices"
 date: 2023-10-27
 
 # Featured image
