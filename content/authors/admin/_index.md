@@ -42,13 +42,13 @@ profiles:
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/chahh9808
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/chahh9808
+    url: https://scholar.google.com/citations?user=tdbvy4IAAAAJ&hl=ko
   # - icon: academicons/orcid
   #   url: https://orcid.org/chahh9808
 
 interests:
   - On-device Artificial Intelligence
-  - Domain Adaptation
+  - Efficient Adaptation
   - Self-Supervised Learning
   - Mobile Sensing
 
