@@ -142,13 +142,13 @@ sections:
       text: |
         <style>
           .experience-section {
-            border-top: 2px solid #19F9D8;
+            border-top: 2px solid #225E4B;
             padding-top: 10px;
           }
           .experience-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #19F9D8;
+            color: #225E4B;
           }
           .experience-section p {
             margin: 5px 0;
@@ -177,55 +177,19 @@ sections:
         </div>
 
   - block: markdown
-    id: awards-honors
-    content:
-      title: Awards & Honors
-      text: |
-        <style>
-          .awards-section {
-            border-top: 2px solid #19F9D8;
-            padding-top: 10px;
-          }
-          .awards-section h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #19F9D8;
-          }
-          .awards-section p {
-            margin: 5px 0;
-            font-size: 14px;
-          }
-        </style>
-        <div class="awards-section">
-          <p><strong>2022</strong></p>
-          <h3>Magna Cum Laude</h3>
-          <p>Korea Advanced Institute of Science and Technology</p>
-
-          <p><strong>2019</strong></p>
-          <h3>Noyeop Cultural Foundation Scholarship</h3>
-          <p>Noyeop Cultural Foundation</p>
-          <p>One person per department, provided until graduation</p>
-
-          <p><strong>2017</strong></p>
-          <h3>Dean's list</h3>
-          <p>Korea Advanced Institute of Science and Technology</p>
-          <p>Outstanding student in the department</p>
-        </div>
-
-  - block: markdown
     id: leadership-experience
     content:
       title: Leadership Experiences
       text: |
         <style>
           .leadership-section {
-            border-top: 2px solid #19F9D8;
+            border-top: 2px solid #225E4B;
             padding-top: 10px;
           }
           .leadership-section h3 {
             margin: 0;
             font-size: 18px;
-            color: #19F9D8;
+            color: #225E4B;
           }
           .leadership-section p {
             margin: 5px 0;
@@ -252,13 +216,49 @@ sections:
         </div>
 
   - block: markdown
+    id: honors
+    content:
+      title: Honors
+      text: |
+        <style>
+          .awards-section {
+            border-top: 2px solid #225E4B;
+            padding-top: 10px;
+          }
+          .awards-section h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #225E4B;
+          }
+          .awards-section p {
+            margin: 5px 0;
+            font-size: 14px;
+          }
+        </style>
+        <div class="awards-section">
+          <p><strong>2022</strong></p>
+          <h3>Magna Cum Laude</h3>
+          <p>Korea Advanced Institute of Science and Technology</p>
+
+          <p><strong>2019</strong></p>
+          <h3>Noyeop Cultural Foundation Scholarship</h3>
+          <p>Noyeop Cultural Foundation</p>
+          <p>One person per department, provided until graduation</p>
+
+          <p><strong>2017</strong></p>
+          <h3>Dean's list</h3>
+          <p>Korea Advanced Institute of Science and Technology</p>
+          <p>Outstanding student in the department</p>
+        </div>
+
+  - block: markdown
     id: skills
     content:
       title: Skills
       text: |
         <style>
           .skills-section {
-            border-top: 2px solid #19F9D8;
+            border-top: 2px solid #225E4B;
             padding-top: 10px;
           }
           .skills-section p {
