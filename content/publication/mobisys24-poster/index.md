@@ -49,7 +49,7 @@ featured: true
 
 url_pdf: ''
 url_code: ''
-url_dataset: 'h'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -58,10 +58,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-# image:
-#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-#   focal_point: ''
-#   preview_only: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  focal_point: ''
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
