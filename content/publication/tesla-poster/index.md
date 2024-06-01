@@ -13,7 +13,7 @@ authors:
 author_notes:
   - 'Equal contribution'
 
-date: '2024-06-3T00:00:00Z'
+date: '2024-06-03T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -49,7 +49,7 @@ featured: true
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'publication/mobisys-poster/TESLA_Mobisys24_poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
