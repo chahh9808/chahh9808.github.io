@@ -90,10 +90,10 @@ sections:
       filters:
         folders:
           - publication
-        featured_only: true
-        # exclude_featured: false
+        # featured_only: true
+        exclude_featured: false
     design:
-      view: list
+      view: compact
   # - block: collection
   #   id: talks
   #   content:
