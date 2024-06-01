@@ -113,16 +113,16 @@ sections:
   #     view: article-grid
   #     columns: 2
   - block: collection
-    id: papers
+    id: projects
     content:
       title: Projects
       text: ""
       filters:
         folders:
-          - project
+          - post
         exclude_featured: false
     design:
-      view: 2
+      view: 3
   - block: collection
     id: papers
     content:
