@@ -122,7 +122,7 @@ sections:
           - project
         exclude_featured: false
     design:
-      view: compact
+      view: 2
   - block: collection
     id: papers
     content:
