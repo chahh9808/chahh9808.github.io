@@ -26,7 +26,7 @@ publishDate: '2024-06-03T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
+publication: The 22nd ACM International Conference on Mobile Systems, Applications, and Services
 publication_short: MobiSys '24
 
 abstract: When deployed in mobile scenarios, deep learning models often suffer from performance degradation due to domain shifts. Test-Time Adaptation (TTA) offers a viable solution, but current approaches face latency issues on resource-constrained mobile devices. We propose TESLA Time-Efficient Sparse and Lightweight Adaptation strategy for real-time mobile applications, which skips adaptation for specific batches to increase the inference sample rate. Our method balances model accuracy and inference speed by accumulating domain-informative samples from non-adapted
@@ -37,7 +37,9 @@ summary: We propose TESLA Time-Efficient Sparse and Lightweight Adaptation strat
 batches and sparsely adapting them.
 
 tags:
-  - On-device AI, Efficient Learning, Domain Adaptation
+  - On-device AI
+  - Efficient Learning
+  - Domain Adaptation
 
 # Display this page in the Featured widget?
 featured: true
@@ -79,7 +81,7 @@ projects: []
 slides: ""
 ---
 
-<!-- {{% callout note %}}
+{{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
@@ -87,4 +89,4 @@ Click the _Cite_ button above to demo the feature to enable visitors to import p
 Create your slides in Markdown - click the _Slides_ button to check out the example.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
