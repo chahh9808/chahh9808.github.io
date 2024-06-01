@@ -10,9 +10,7 @@ authors:
   - Sung-Ju Lee
 
 # Author notes (optional)
-# author_notes:
-#   - 'Equal contribution'
-#   - 'Equal contribution'
+author_notes:
 
 date: '2024-04-19T00:00:00Z'
 doi: ''
