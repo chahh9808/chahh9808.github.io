@@ -150,6 +150,134 @@ languages:
   - name: Portuguese
     percent: 25
 
+
+
+news:
+  - exp: Participating EMNLP 2023 @ Singapore
+    date: Dec 2023
+  - exp: Paper accepted at EMNLP 2023
+    date: Oct 2023
+  - exp: Graduated from KAIST with a bachelor's degree in Computer Science with honors
+    date: Aug 2022
+  - exp: Honorable Mention at ACM CHI 2022
+    date: Mar 2022
+  - exp: Paper accepted at ACM CHI 2022
+    date: Nov 2022
+
+
+paper:
+  - name: "FedTherapist: Mental Health Monitoring with User-Generated Linguistic Expressions on Smartphones via Federated Learning"
+    venue: "EMNLP '23"
+    author: Jaemin Shin, Hyungjun Yoon, <font color="#4765b6"><b>Seungjoo Lee</b></font>, Sungjoon Park, Yunxin Liu, Jinho D. Choi, Sung-Ju Lee
+    pdf: https://arxiv.org/abs/2310.16538
+    website: https://nmsl.kaist.ac.kr/projects/fedtherapist/
+    img: uploads/fedtherapist.png
+  - name: "MyDJ: Sensing Food Intakes with an Attachable on Your Eyeglass Frame"
+    venue: "CHI '22"
+    author: Jaemin Shin, <font color="#4765b6"><b>Seungjoo Lee</b></font>, Taesik Gong, Hyungjun Yoon, Hyunchul Roh, Andrea Bianchi, and Sung-Ju Lee
+    pdf: https://dl.acm.org/doi/abs/10.1145/3491102.3502041
+    website: https://nmsl.kaist.ac.kr/projects/mydj/
+    video: https://www.youtube.com/watch?v=77XNl39QoEE
+    award: Best Paper Honorable Mention Award (Top 5%)
+    img: uploads/mydj.png
+    slide: uploads/mydj_slides.pdf
+
+demo:
+  - name: "Accurate Eating Detection on a Daily Wearable Necklace"
+    venue: "MobiSys '19 Demo"
+    author: Jaemin Shin, Hyungjun Yoon, <font color="#4765b6"><b>Seungjoo Lee</b></font>, Sungjoon Park, Yunxin Liu, Jinho D. Choi, Sung-Ju Lee
+    pdf: https://dl.acm.org/doi/10.1145/3307334.3328565
+    img: uploads/necktural.png
+
+project:
+  - name: "Validating Labeling Functions in Domain Shift (Out of Domain Detection)"
+    desc: "Course project in KAIST Advanced Big Data-AI Integration (EE616)"
+    author: Domain shift detection using programmatic weak supervision
+    pdf: https://sjlee.info/uploads/EE616.pdf
+    img: uploads/EE616.png
+    page: https://sjlee.info/project/ee616
+    slide: uploads/EE616_slides.pdf
+  - name: "Will Overly Polite Sentences Harm Model Performance? Adversarial Pragmatic Perturbation for NLP"
+    desc: "Course project in KAIST Bias and Ethics in Natural Language Processing course (AI620)"
+    author: Adversarial attack on LLM model with tone perturbation and its defense
+    pdf: https://sjlee.info/uploads/AI620.pdf
+    page: https://sjlee.info/project/ai620
+    img: uploads/AI620.png
+  - name: "Rocket Recycling with Reinforcement Learning"
+    desc: "Course project in KAIST Reinforcement Learning (EE488D)"
+    author: Hovering & landing task with soft actor critic & curiosity-driven experience replay
+    page: https://sjlee.info/project/ee488d
+    img: uploads/EE488D.png
+    pdf: https://sjlee.info/uploads/EE488D.pdf
+  - name: "Context-aware automatic video screen manipulation using trajectory tracking"
+    desc: "Course project in KAIST Mobile Computing and Systems for Intelligent Living course (EE595)"
+    author: Manipulating Youtube interface (rotate, zoom, relay from smartphone to laptop) using user head location & orientation. </br>Implemented head tracking using Arduino & bluetooth connection between laptop, smartphone, and Arduino
+    pdf: https://sjlee.info/uploads/EE595.pdf
+    img: uploads/EE595.png
+    website: https://sites.google.com/view/smilelab/teaching?authuser=0
+    video: https://www.youtube.com/watch?v=RVQDANiRxUU
+    slide: uploads/EE595_slides.pdf
+    page: https://sjlee.info/project/ee595
+    award: Selected as interesting project and uploaded to the course website
+  - name: "GraspTraker: Tracking smartphone grab posture with inaudible sound"
+    desc: "Course project in KAIST Mobile Computing and Applications course (CS442)"
+    author: Detecting smartphone grasp posture using inaudible sound and FMCW modulation
+    pdf: https://sjlee.info/uploads/CS442.pdf
+    img: uploads/CS442.png
+    page: https://sjlee.info/project/cs442
+    slide: uploads/CS442_slides.pdf
+  - name: "SPADE-based Line Art Colorization"
+    desc: "Course project in KAIST Introduction to Artificial Intelligence course (CS470)"
+    author: SPADE-based model that colorizes a given line art image using a hint image
+    pdf: https://sjlee.info/uploads/CS470.pdf
+    img: uploads/CS470.png
+    page: https://sjlee.info/project/cs470
+    slide: uploads/CS470_slides.pdf
+    code: https://github.com/Ugness/Line-Art-Colorization-SPADE
+  - name: "DeltaCNN: Efficient processing of CNN inference for continuous mobile vision"
+    desc: "Course project in KAIST Operating System course (CS530)"
+    author: Fast calculation of convolutional layers in continuous video streams using the fact that the video scene does not change significantly
+    pdf: https://sjlee.info/uploads/CS530.pdf
+    img: uploads/CS530.png
+    page: https://sjlee.info/project/cs530
+  
+
+    
+honor:
+  - name: "KAIST 2023 Winner of the Graduate of the Year Award (KAIST Board of Trustee Chairperson's Prize)"
+    exp: <font color="#4765b6"><b>2nd place out of 715 students</b></font>, awarded to top 5 students (0.7%) who demonstrated outstanding performances in various activities as well as in grades. Awarded at the commencement ceremony
+    org: "KAIST"
+    date: "Feb 2023"
+  - name: "Summa Cum Laude"
+    exp: Awarded for achieving the highest academic performance among students
+    org: "KAIST"
+    date: "Sep 2022"
+  - name: "Engineering Innovator Award"
+    exp: Awarded to <font color="#4765b6"><b>5 students each semester</b></font>, who showed outstanding performance in extracurricular activities, including academic publications, entrepreneurial activities, exhibitions, and inventions
+    org: "KAIST college of engineering"
+    date: "Sep 2022"
+  - name: "Honorable Mention Award"
+    exp: Awarded to <font color="#4765b6"><b>top 5% of all submissions</b></font> in CHI 2022
+    org: "ACM SIGCHI"
+    date: "Mar 2022"
+  - name: "U.S. Army Certificate of Appreciation"
+    exp: Awarded for exemplary service during military duty, serving as a role model for others
+    org: "U.S. Army"
+    date: "Jul 2021"
+  - name: "Dean's List"
+    exp: Awarded to <font color="#4765b6"><b>top 3% among 2,900+ students</b></font> in College of Engineering
+    org: "KAIST"
+    date: "Fall 2019"
+  - name: "Dean's List"
+    exp: Awarded to <font color="#4765b6"><b>top 3% among 2,900+ students</b></font> in College of Engineering
+    org: "KAIST"
+    date: "Spring 2019"
+  - name: "National excellence scholarship"
+    exp: National scholarship to students who showed excellence
+    org: "Korea Student Aid Foundation"
+    date: "Fall 2018 - Fall 2019" 
+
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.

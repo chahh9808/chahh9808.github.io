@@ -8,7 +8,7 @@ imports:
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind
   # - path: github.com/chahh9808/hugo-blox-hyeongheon
-  # - path: github.com/juiceleee/seungjoo-wowchemy-blocks
+  - path: github.com/juiceleee/seungjoo-wowchemy-blocks
 
 # Install any Hugo Blox within the `hugo-blox/blox/` folder
 mounts:
