@@ -55,7 +55,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: list
+      view: lists
       # view: date-title-summary
       # Reduce spacing
       spacing:
@@ -118,7 +118,7 @@ sections:
         # featured_only: true
         exclude_featured: false
     design:
-      view: list
+      view: lists
       columns: 1
   # - block: collection
   #   id: talks
