@@ -1,6 +1,6 @@
 ---
-title: Development of Novel Networking Technology for Micro-Scale Cluster Robots
-summary: "Developing MANET: distributed resource allocation algorithms, routing protocols, and routing metrics suitable for cluster robot operation"
+title: Mobile ad hoc network (MANET) Technology for Micro-Scale Cluster Robots
+summary: "Developing MANET distributed resource allocation algorithms, routing protocols, and routing metrics suitable for cluster robot operation"
 date: 2023-02-11
 
 # Featured image
@@ -12,7 +12,7 @@ authors:
   - admin
 
 tags:
-  - Mobile AD-HOC Network
+  - Mobile AD-HOC Network (MANET)
   - Routing
 ---
 

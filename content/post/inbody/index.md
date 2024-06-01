@@ -1,5 +1,5 @@
 ---
-title: Development of Automatic Stethoscope Blood Pressure Measuring Chair
+title: Automatic Stethoscope based Blood Pressure Measuring Chair System
 summary: "Developed prototype chair with a tablet app, featuring AI-based heart height estimation, BLE-controlled laser and motor, and cloud server measurement management."
 date: 2020-12-01
 
