@@ -93,7 +93,7 @@ sections:
         <ul style="font-size: 16px;">
           <li>Nov. 2025 <span class="icon">🌟</span> Won First Place at Microsoft Global Hackathon 2025</li>
           <li>Oct. 2025 <span class="icon">📝</span> First author paper 'SNAP' is accepted at NeurIPS '25</li>
-          <li>Mar. 2025 <span class="icon">📝</span> Paper 'From Vision to Motion' is accepted at IEEE Transactions on Mobile Computing</li>
+          <li>Mar. 2025 <span class="icon">📝</span> Paper 'From Vision to Motion' is accepted at IEEE TMC</li>
           <li>Jul. 2025 <span class="icon">📚</span> Research Internship at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, Shanghai, China</li>
           <li>Jan. 2025 <span class="icon">🌟</span> Recieved Inseong (Character) Scholarship at KAIST</li>
           <li>Jun. 2024 <span class="icon">✈️</span> MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)</li>
