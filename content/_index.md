@@ -91,11 +91,15 @@ sections:
       subtitle: ''
       text: |-
         <ul style="font-size: 16px;">
+          <li>Nov. 2025 <span class="icon">🌟</span> Won First Place at Microsoft Global Hackathon 2025</li>
+          <li>Oct. 2025 <span class="icon">📝</span> First author paper 'SNAP' is accepted at NeurIPS '25</li>
+          <li>Mar. 2025 <span class="icon">📝</span> Paper 'From Vision to Motion' is accepted at IEEE Transactions on Mobile Computing</li>
+          <li>Jul. 2025 <span class="icon">📚</span> Research Internship at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, Shanghai, China</li>
+          <li>Jan. 2025 <span class="icon">🌟</span> Recieved Inseong (Character) Scholarship at KAIST</li>
           <li>Jun. 2024 <span class="icon">✈️</span> MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)</li>
           <li>Jun. 2024 <span class="icon">🌟</span> Graduate Student Council President of KAIST EE</li>
-          <li>Apr. 2024 <span class="icon">📝</span> Poster accepted at MobiSys '24</li>
-          <li>Feb. 2024 <span class="icon">📝</span> Submitted paper IMG2IMU </li>
-          <li>Aug. 2023 <span class="icon">📝</span> Submitted paper Sherlock </li>
+          <li>Apr. 2024 <span class="icon">📝</span> Poster 'TESLA' accepted at MobiSys '24</li>
+          <li>Aug. 2023 <span class="icon">📝</span> Submitted paper 'Sherlock' </li>
           <li>Mar. 2022 <span class="icon">📚</span> Joined Networking & Mobile System Lab at KAIST</li>
           <li>Feb. 2022 <span class="icon">📚</span> Received B.S. degree at KAIST with Magna Cum Laude</li>
           <li>Aug. 2020 <span class="icon">📚</span> Research Internship (Team leader) at <a href="https://inbodyusa.com/">InBody.co.</a>, Seoul, Korea</li>
@@ -161,6 +165,11 @@ sections:
           }
         </style>
         <div class="experience-section">
+          <p><strong>07/2025 – 01/2026</strong></p>
+          <h3>Microsoft Resarch Asia, Wireless Communication and Sensing Group (Mentor: <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>)</h3>
+          <p>Research Intern</p>
+          <p class="location">Shanghai, China</p>
+        
           <p><strong>02/2021 – 02/2022</strong></p>
           <h3>KAIST, Network and Mobile System Lab</h3>
           <p>Undergraduate Research Intern</p>

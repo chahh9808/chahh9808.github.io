@@ -1,5 +1,5 @@
 ---
-title: 'IMG2IMU: Translating Knowledge from Large-Scale Images to IMU Sensing Applications'
+title: 'From Vision to Motion: Translating Large-Scale Knowledge for Data-Scarce IMU Applications'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -24,11 +24,11 @@ publishDate: '2024-05-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['preprints']
+publication_types: ['IEEE Transactions on Mobile Computing']
 
 # Publication name and optional abbreviated publication name.
-publication: "Preprints"
-publication_short: "Preprints"
+publication: "IEEE Transactions on Mobile Computing"
+publication_short: "IEEE Transactions on Mobile Computing"
 
 abstract: Pre-training representations acquired via self-supervised learning could achieve high accuracy on even tasks with small training data. Unlike in vision and natural language processing domains, pre-training for IMU-based applications is challenging, as there are few public datasets with sufficient size and diversity to learn generalizable representations. To overcome this problem, we propose IMG2IMU that adapts pre-trained representation from large-scale images to diverse IMU sensing tasks. We convert the sensor data into visually interpretable spectrograms for the model to utilize the knowledge gained from vision. We further present a sensor-aware pre-training method for images that enables models to acquire particularly impactful knowledge for IMU sensing applications. This involves using contrastive learning on our augmentation set customized for the properties of sensor data. Our evaluation with four different IMU sensing tasks shows that IMG2IMU outperforms the baselines pre-trained on sensor data by an average of 9.6%p F1-score, illustrating that vision knowledge can be usefully incorporated into IMU sensing applications where only limited training data is available.
 
