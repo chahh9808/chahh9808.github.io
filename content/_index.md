@@ -93,7 +93,7 @@ sections:
         <ul style="font-size: 16px;">
           <li>Apr. 2026 <span class="icon">✈️</span> ICLR '26 @ Rio de Janeiro, Brazil (Apr. 23 - 27)</li>
           <li>Feb. 2026 <span class="icon">🌟</span> Won Stars of Tomorrow award at Microsoft Research Asia</li>
-          <li>Jan. 2026 <span class="icon">🌟</span> Invited Talk at <a href="https://hyperconnect.com/en/">Hyperconnect AI</a>(Thesis: TTA for Clients)</li>
+          <li>Jan. 2026 <span class="icon">🌟</span> Invited Talk at <a href="https://hyperconnect.com/en/">Hyperconnect AI</a> (Thesis: TTA for Clients)</li>
           <li>Jan. 2026 <span class="icon">📝</span> Our paper 'Beyond Hearing' is accepted at ICLR '25</li>
           <li>Nov. 2025 <span class="icon">🌟</span> Won First Place at Microsoft Global Hackathon 2025</li>
           <li>Oct. 2025 <span class="icon">📝</span> First author paper 'SNAP' is accepted at NeurIPS '25</li>
