@@ -35,4 +35,3 @@ Project member in KAIST Mobile Intelligence & Interaction Lab
 
 - Website: https://miil.kaist.ac.kr/projects/img2imu
 - PDF: https://ieeexplore.ieee.org/document/10947275
-- Code: https://github.com/chahh9808/SNAP
