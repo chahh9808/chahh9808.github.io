@@ -1,6 +1,9 @@
 ---
 title: Pandas
 date: 2023-10-26
+_build:
+  render: never
+  list: never
 external_link: https://github.com/pandas-dev/pandas
 tags:
   - Hugo

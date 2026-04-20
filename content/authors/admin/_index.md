@@ -24,7 +24,7 @@ role: Ph.D. Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: KAIST EE Networking & Mobile System Lab
+  - name: KAIST EE Mobile Intelligence & Interaction Lab
     url: https://nmsl.kaist.ac.kr/
 
 # Social network links
@@ -49,7 +49,7 @@ profiles:
 interests:
   - On-device Artificial Intelligence
   - Efficient Model Adaptation
-  - Self-Supervised Learning
+  - Physical AI
   - Mobile Sensing
 
 education:
@@ -310,8 +310,8 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+<!-- ## About Me -->
 
-I am a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Networking & Mobile Systems Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. I am currently a research intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a> (2025-2026), advised by professor <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>. I was a research intern at <a href="https://inbodyusa.com/">InBody</a> (2020),  and I received my B.S. in Electrical Engineering from KAIST with <strong>Magna Cum Laude</strong>.
+I am a Ph.D. student in <a href="https://nmsl.kaist.ac.kr/">Mobile Intelligence & Interaction Lab</a> at <a href="https://nmsl.kaist.ac.kr/">Korea Advanced Institute of Science and Technology (KAIST)</a>, advised by professor <a href="https://sites.google.com/site/wewantsj/">Sung-Ju Lee</a>. I am currently a research intern at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a> (2025-2026), advised by professor <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>. I was a research intern at <a href="https://inbodyusa.com/">InBody</a> (2020),  and I received my B.S. in Electrical Engineering from KAIST with <strong>Magna Cum Laude</strong>.
 ### Passionate about developing on-device AI soulution, aim to create cutting-edge, adaptable, and efficient software for real-world environments. 
 Please reach out to collaborate 😃

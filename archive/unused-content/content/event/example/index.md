@@ -1,5 +1,8 @@
 ---
 title: Example Talk
+_build:
+  render: never
+  list: never
 
 event: Hugo Blox Builder Conference
 event_url: https://example.org
