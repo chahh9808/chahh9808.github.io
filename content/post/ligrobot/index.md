@@ -18,7 +18,7 @@ tags:
 
 ## Position
 
-Project leader in KAIST Network and Mobile System Lab
+Project leader in KAIST Mobile Intelligence & Interaction Lab
 
 ## Project Goals & Works
 

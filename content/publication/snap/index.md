@@ -15,7 +15,7 @@ authors:
 author_notes:
   - 'Equal contribution'
 
-date: '2025-02-29T00:00:00Z'
+date: '2025-02-28T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -69,7 +69,8 @@ url_video: ''
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects:
+  - snap
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

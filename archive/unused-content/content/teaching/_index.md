@@ -2,6 +2,9 @@
 title: Teaching
 summary: My courses
 type: landing
+_build:
+  render: never
+  list: never
 
 cascade:
   - _target:

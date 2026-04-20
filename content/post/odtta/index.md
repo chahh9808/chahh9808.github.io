@@ -21,9 +21,13 @@ tags:
 
 ## Position
 
-Project leader in KAIST Network and Mobile System Lab
+Project leader in KAIST Mobile Intelligence & Interaction Lab
 
 ## Project Goals & Works
 
 1. Aim to develop a novel time-efficient on-device DNN adaptation strategy for real-time mobile applications, balancing model accuracy and inference speed.
 2. Exploring model adaptation methods that enable real-time inference on extremely resource-constrained devices.
+
+## Links
+
+- Poster: https://dl.acm.org/doi/10.1145/3643832.3661442

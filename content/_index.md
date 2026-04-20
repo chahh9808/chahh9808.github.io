@@ -104,7 +104,7 @@ sections:
           <li>Jun. 2024 <span class="icon">🌟</span> Graduate Student Council President of KAIST EE</li>
           <li>Apr. 2024 <span class="icon">📝</span> First author poster 'TESLA' accepted at MobiSys '24</li>
           <li>Aug. 2023 <span class="icon">📝</span> Submitted paper 'Sherlock' </li>
-          <li>Mar. 2022 <span class="icon">📚</span> Joined Networking & Mobile System Lab at KAIST</li>
+          <li>Mar. 2022 <span class="icon">📚</span> Joined Mobile Intelligence & Interaction Lab at KAIST</li>
           <li>Feb. 2022 <span class="icon">📚</span> Received B.S. degree at KAIST with Magna Cum Laude</li>
           <li>Aug. 2020 <span class="icon">📚</span> Research Internship (Team leader) at <a href="https://inbodyusa.com/">InBody.co.</a>, Seoul, Korea</li>
         </ul>
@@ -175,7 +175,7 @@ sections:
           <p class="location">Shanghai, China</p>
         
           <p><strong>02/2021 – 02/2022</strong></p>
-          <h3>KAIST, Network and Mobile System Lab</h3>
+          <h3>KAIST, Mobile Intelligence & Interaction Lab</h3>
           <p>Undergraduate Research Intern</p>
           <p class="location">Daejeon, Republic of Korea</p>
 
@@ -250,6 +250,10 @@ sections:
           }
         </style>
         <div class="awards-section">
+          <p><strong>2026</strong></p>
+          <h3>Stars of Tomorrow Award</h3>
+          <p>Microsoft Research Asia</p>
+
           <p><strong>2022</strong></p>
           <h3>Magna Cum Laude</h3>
           <p>Korea Advanced Institute of Science and Technology</p>
@@ -297,7 +301,7 @@ sections:
   #     title: PROFESSIONAL EXPERIENCE
   #     text: |
   #       **02/2021 – 02/2022**  
-  #       **KAIST, Network and Mobile System Lab**  
+  #       **KAIST, Mobile Intelligence & Interaction Lab**  
   #       *Undergraduate Research Intern*  
   #       Daejeon, Republic of Korea
 

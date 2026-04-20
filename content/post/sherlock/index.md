@@ -23,7 +23,7 @@ tags:
 
 ## Position
 
-Project member in KAIST Network and Mobile System Lab
+Project member in KAIST Mobile Intelligence & Interaction Lab
 
 ## Project Goals & Works
 
