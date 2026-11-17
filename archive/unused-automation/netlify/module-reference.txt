@@ -1,0 +1,14 @@
+Archived on 2026-11-17 after the owner confirmed Netlify is unused.
+
+config/_default/module.yaml import:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+
+go.mod requirement:
+  github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231209203044-d31adfedd40b
+
+go.sum entries:
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231209203044-d31adfedd40b h1:rAluI3a9m5ZoJY5xTF7YcgA4YTJLsvPTEh6sVQhPb+o=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231209203044-d31adfedd40b/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
+
+config/_default/hugo.yaml outputs:
+  home: [HTML, RSS, headers, redirects, backlinks]

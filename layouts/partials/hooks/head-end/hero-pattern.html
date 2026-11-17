@@ -1,0 +1,4 @@
+{{ if .IsHome }}
+  {{ $pattern := resources.Get "media/hero-contours.svg" | fingerprint "sha256" }}
+  <style>:root { --hero-pattern: url("{{ $pattern.RelPermalink }}"); }</style>
+{{ end }}

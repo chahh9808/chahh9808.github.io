@@ -6,6 +6,7 @@
 
 # Local tooling cache/binaries
 /.tools/
+/.venv/
 
 # macOS
 .DS_Store

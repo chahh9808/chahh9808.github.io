@@ -1,0 +1,26 @@
+{{- $block := .wcBlock -}}
+{{- $items := $block.content.items | default slice -}}
+{{- $limit := int ($block.content.count | default 10) -}}
+{{- $older := after $limit $items -}}
+
+<div class="news-panel">
+  <h2 class="news-heading">{{ $block.content.title }}</h2>
+  <ul class="news-list">
+    {{ range first $limit $items }}
+      {{ partial "components/news-item.html" . }}
+    {{ end }}
+  </ul>
+  {{ with $older }}
+    <details class="news-archive">
+      <summary class="news-archive__toggle" data-pagefind-ignore>
+        <span class="news-archive__label--closed">Show more</span>
+        <span class="news-archive__label--open">Show less</span>
+      </summary>
+      <ul class="news-list news-list--older">
+        {{ range . }}
+          {{ partial "components/news-item.html" . }}
+        {{ end }}
+      </ul>
+    </details>
+  {{ end }}
+</div>

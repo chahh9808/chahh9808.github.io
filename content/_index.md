@@ -1,126 +1,92 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
-  spacing: "6rem"
+  spacing: "4rem"
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
     design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: true
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     # view: citation
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 7, 0]
+      css_class: monochrome-hero
 
-
-  # - block: 'github.juiceleee.news'
-  #   id: news
-  #   content:
-  #     title: News
-  #     username: admin
-  # - block: 'github.juiceleee.publication'
-  #   id: publication
-  #   content:
-  #     title: Publications
-  #     # Choose a user profile to display (a folder name within `content/authors/`)
-  #     username: admin
-  # - block: 'github.juiceleee.honor'
-  #   id: honor
-  #   content:
-  #     title: Honors
-  #     username: admin
-  # - block: 'github.juiceleee.project'
-  #   id: project
-  #   content:
-  #     title: Projects
-  #     username: admin
-  
-  - block: markdown
+  - block: news
     id: news
     content:
       title: 'News'
-      subtitle: ''
-      text: |-
-        <ul style="font-size: 16px;">
-          <li>Apr. 2026 <span class="icon">✈️</span> ICLR '26 @ Rio de Janeiro, Brazil (Apr. 23 - 27)</li>
-          <li>Feb. 2026 <span class="icon">🌟</span> Won Stars of Tomorrow award at Microsoft Research Asia</li>
-          <li>Jan. 2026 <span class="icon">🌟</span> Invited Talk at <a href="https://hyperconnect.com/en/">Hyperconnect AI</a> (Thesis: TTA for Clients)</li>
-          <li>Jan. 2026 <span class="icon">📝</span> Our paper 'Beyond Hearing' is accepted at ICLR '26</li>
-          <li>Nov. 2025 <span class="icon">🌟</span> Won First Place at Microsoft Global Hackathon 2025</li>
-          <li>Oct. 2025 <span class="icon">📝</span> First author paper 'SNAP' is accepted at NeurIPS '25</li>
-          <li>Mar. 2025 <span class="icon">📝</span> Our paper 'From Vision to Motion' is accepted at IEEE TMC</li>
-          <li>Jul. 2025 <span class="icon">📚</span> Research Internship at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, Shanghai, China</li>
-          <li>Jan. 2025 <span class="icon">🌟</span> Recieved Inseong (Character) Scholarship at KAIST</li>
-          <li>Jun. 2024 <span class="icon">✈️</span> MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)</li>
-          <li>Jun. 2024 <span class="icon">🌟</span> Graduate Student Council President of KAIST EE</li>
-          <li>Apr. 2024 <span class="icon">📝</span> First author poster 'TESLA' accepted at MobiSys '24</li>
-          <li>Aug. 2023 <span class="icon">📝</span> Submitted paper 'Sherlock' </li>
-          <li>Mar. 2022 <span class="icon">📚</span> Joined Mobile Intelligence & Interaction Lab at KAIST</li>
-          <li>Feb. 2022 <span class="icon">📚</span> Received B.S. degree at KAIST with Magna Cum Laude</li>
-          <li>Aug. 2020 <span class="icon">📚</span> Research Internship (Team leader) at <a href="https://inbodyusa.com/">InBody.co.</a>, Seoul, Korea</li>
-        </ul>
-    design:
-      columns: '1'
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
+      count: 10
+      items:
+        - date: 'Apr. 2026'
+          icon: '✈️'
+          text: >-
+            ICLR '26 @ Rio de Janeiro, Brazil (Apr. 23 - 27)
+        - date: 'Feb. 2026'
+          icon: '🌟'
+          text: >-
+            Won Stars of Tomorrow award at Microsoft Research Asia
+        - date: 'Jan. 2026'
+          icon: '🌟'
+          text: >-
+            Invited Talk at <a href="https://hyperconnect.com/en/">Hyperconnect AI</a> (Thesis: TTA for Clients)
+        - date: 'Jan. 2026'
+          icon: '📝'
+          text: >-
+            Our paper 'Beyond Hearing' is accepted at ICLR '26
+        - date: 'Nov. 2025'
+          icon: '🌟'
+          text: >-
+            Won First Place at Microsoft Global Hackathon 2025
+        - date: 'Oct. 2025'
+          icon: '📝'
+          text: >-
+            First author paper 'SNAP' is accepted at NeurIPS '25
+        - date: 'Jul. 2025'
+          icon: '📚'
+          text: >-
+            Research Internship at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a>, Shanghai, China
+        - date: 'Mar. 2025'
+          icon: '📝'
+          text: >-
+            Our paper 'From Vision to Motion' is accepted at IEEE TMC
+        - date: 'Jan. 2025'
+          icon: '🌟'
+          text: >-
+            Received Inseong (Character) Scholarship at KAIST
+        - date: 'Jun. 2024'
+          icon: '✈️'
+          text: >-
+            MobiSys '24 @ Tokyo, Japan (Jun. 3 - 7)
+        - date: 'Jun. 2024'
+          icon: '🌟'
+          text: >-
+            Graduate Student Council President of KAIST EE
+        - date: 'Apr. 2024'
+          icon: '📝'
+          text: >-
+            First author poster 'TESLA' accepted at MobiSys '24
+        - date: 'Aug. 2023'
+          icon: '📝'
+          text: >-
+            Submitted paper 'Sherlock'
+        - date: 'Mar. 2022'
+          icon: '📚'
+          text: >-
+            Joined Mobile Intelligence & Interaction Lab at KAIST
+        - date: 'Feb. 2022'
+          icon: '📚'
+          text: >-
+            Received B.S. degree at KAIST with Magna Cum Laude
+        - date: 'Aug. 2020'
+          icon: '📚'
+          text: >-
+            Research Internship (Team leader) at <a href="https://inbodyusa.com/">InBody.co.</a>, Seoul, Korea
   - block: collection
     id: projects
     content:
@@ -132,12 +98,13 @@ sections:
           - post
         exclude_featured: false
     design:
-      view: compact
+      view: project-list
   - block: collection
     id: papers
     content:
       title: Publications
       text: ""
+      count: 0
       filters:
         folders:
           - publication
@@ -149,28 +116,9 @@ sections:
     content:
       title: Professional Experiences
       text: |
-        <style>
-          .experience-section {
-            border-top: 2px solid #059669;
-            padding-top: 10px;
-          }
-          .experience-section h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #059669;
-          }
-          .experience-section p {
-            margin: 5px 0;
-            font-size: 14px;
-          }
-          .experience-section .location {
-            font-style: italic;
-            color: gray;
-          }
-        </style>
         <div class="experience-section">
           <p><strong>07/2025 – 01/2026</strong></p>
-          <h3>Microsoft Resarch Asia, Wireless Communication and Sensing Group (Mentor: <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>)</h3>
+          <h3>Microsoft Research Asia, Wireless Communication and Sensing Group (Mentor: <a href="https://www.cs.utexas.edu/~lili/">Lili Qiu</a>)</h3>
           <p>Research Intern</p>
           <p class="location">Shanghai, China</p>
         
@@ -195,21 +143,6 @@ sections:
     content:
       title: Leadership Experiences
       text: |
-        <style>
-          .leadership-section {
-            border-top: 2px solid #059669;
-            padding-top: 10px;
-          }
-          .leadership-section h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #059669;
-          }
-          .leadership-section p {
-            margin: 5px 0;
-            font-size: 14px;
-          }
-        </style>
         <div class="leadership-section">
           <p><strong>2024 – 2024</strong></p>
           <h3>Graduate Student Council President</h3>
@@ -225,7 +158,7 @@ sections:
 
           <p><strong>2018 – 2019</strong></p>
           <h3>Freshman Program Designer</h3>
-          <p>Korea Institute of Science and Technology</p>
+          <p>Korea Advanced Institute of Science and Technology</p>
           <p>Design and operate special classes and programs for KAIST freshmen</p>
         </div>
 
@@ -234,21 +167,6 @@ sections:
     content:
       title: Honors
       text: |
-        <style>
-          .awards-section {
-            border-top: 2px solid #059669;
-            padding-top: 10px;
-          }
-          .awards-section h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #059669;
-          }
-          .awards-section p {
-            margin: 5px 0;
-            font-size: 14px;
-          }
-        </style>
         <div class="awards-section">
           <p><strong>2026</strong></p>
           <h3>Stars of Tomorrow Award</h3>
@@ -274,19 +192,6 @@ sections:
     content:
       title: Skills
       text: |
-        <style>
-          .skills-section {
-            border-top: 2px solid #059669;
-            padding-top: 10px;
-          }
-          .skills-section p {
-            margin: 5px 0;
-            font-size: 14px;
-          }
-          .skills-section .skill-category {
-            font-weight: bold;
-          }
-        </style>
         <div class="skills-section">
           <p><span class="skill-category">Programming</span> — Python, C, C++, Java</p>
           <p><span class="skill-category">Machine Learning</span> — Pytorch, Tensorflow, Tensorflow Lite</p>
@@ -294,107 +199,4 @@ sections:
           <p><span class="skill-category">Network Simulation</span> — NS3 simulator</p>
         </div>
 
-
-  # - block: markdown
-  #   id: professional-experience
-  #   content:
-  #     title: PROFESSIONAL EXPERIENCE
-  #     text: |
-  #       **02/2021 – 02/2022**  
-  #       **KAIST, Mobile Intelligence & Interaction Lab**  
-  #       *Undergraduate Research Intern*  
-  #       Daejeon, Republic of Korea
-
-  #       **02/2020 – 08/2020**  
-  #       **InBody Co., Future Innovation Team**  
-  #       *Research Intern*  
-  #       Seoul, Republic of Korea
-
-  #       **08/2019 – 09/2019**  
-  #       **KAIST, Smart and Mobile System Lab**  
-  #       *Individual Research Intern*  
-  #       Daejeon, Republic of Korea
-
-  # - block: markdown
-  #   id: awards-honors
-  #   content:
-  #     title: AWARDS & HONORS
-  #     text: |
-  #       **2022**  
-  #       **Magna Cum Laude**  
-  #       *Korea Advanced Institute of Science and Technology*
-
-  #       **2019**  
-  #       **Noyeop Cultural Foundation Scholarship**  
-  #       *Noyeop Cultural Foundation*  
-  #       One person per department, provided until graduation
-
-  #       **2017**  
-  #       **Dean's list**  
-  #       *Korea Advanced Institute of Science and Technology*  
-  #       Outstanding student in the department
-
-  # - block: markdown
-  #   id: leadership-experience
-  #   content:
-  #     title: LEADERSHIP EXPERIENCE
-  #     text: |
-  #       **2024 – 2024**  
-  #       **Graduate Student Council President**  
-  #       *KAIST School of Electrical Engineering*
-
-  #       **2020 – 2020**  
-  #       **Team Leader**  
-  #       *InBody Co., Future Innovation Team*
-
-  #       **2018 – 2019**  
-  #       **Undergraduate Student Council President**  
-  #       *KAIST School of Electrical Engineering*
-
-  #       **2018 – 2019**  
-  #       **Freshman Program Designer**  
-  #       *Korea Institute of Science and Technology*  
-  #       Design and operate special classes and programs for KAIST freshmen
-
-  # - block: markdown
-  #   id: skills
-  #   content:
-  #     title: SKILLS
-  #     text: |
-  #       **Programming** — Python, C, C++, Java  
-  #       **Machine Learning** — Pytorch, Tensorflow, Tensorflow Lite  
-  #       **Hardware Prototyping** — Arduino, RaspberryPi, Qorvo  
-  #       **Network Simulation** — NS3 simulator
-
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
-  
-  # - block: cta-card
-  #   demo: true # Only display this section in the Hugo Blox Builder demo site
-  #   content:
-  #     title: 👉 Build your own academic website like this
-  #     text: |-
-  #       This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-  #       <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-  #       Easily build anything with blocks - no-code required!
-        
-  #       From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-  #     button:
-  #       text: Get Started
-  #       url: https://hugoblox.com/templates/
-  #   design:
-  #     card:
-  #       # Card background color (CSS class)
-  #       css_class: "bg-primary-700"
-  #       css_style: ""
 ---

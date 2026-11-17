@@ -1,0 +1,8 @@
+# Keep shared navigation and footer text out of search results.
+# Leave document metadata available for Pagefind's title and image detection.
+exclude_selectors:
+  - .page-header
+  - .page-footer
+  - .hb-sidebar-container
+  - .hb-toc
+  - '#search'

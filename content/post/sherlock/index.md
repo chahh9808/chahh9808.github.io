@@ -1,6 +1,6 @@
 ---
 title: Drone/Smartphone based Hidden Camera Detection System
-summary: "Exploring mobile system that uses a flickering flashlight and the rolling shutter effect to quickly detect hidden cameras amidst rising illegal filming crimess"
+summary: "Exploring mobile system that uses a flickering flashlight and the rolling shutter effect to quickly detect hidden cameras amidst rising illegal filming crimes"
 date: 2023-10-25
 
 # Featured image

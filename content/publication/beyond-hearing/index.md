@@ -12,15 +12,18 @@ authors:
   - admin
   - Haochen Zhao
   - Gaoteng Zhao
-  - Sung-Ju Lee
-  - Cecilia Mascolo
   - Dongyao Chen
+  - Cecilia Mascolo
+  - Sung-Ju Lee
   - Lili Qiu
 
 author_notes:
-  - ''
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2025-10-22T00:00:00Z'
+date: '2026-04-23T00:00:00Z'
 doi: ''
 publishDate: '2026-01-15T00:00:00Z'
 
@@ -44,13 +47,12 @@ url_pdf: 'https://openreview.net/pdf?id=s79tJrxDmt'
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://miil.kaist.ac.kr/projects/beyondhearing/'
 url_slides: ''
 url_source: ''
 url_video: ''
 
 projects: []
-
 
 slides: ""
 ---

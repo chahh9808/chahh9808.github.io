@@ -23,3 +23,24 @@ This folder stores content that was previously present in `content/` but is curr
 2. Remove `_build.render: never` and `_build.list: never` if present
 3. Reconnect it from homepage/menu if needed
 4. Check with local preview before merge
+
+The empty Talks section was disabled on 2026-11-17. When restoring a talk, also
+re-enable rendering and listing in `content/event/_index.md`.
+
+## Media archived on 2026-11-06
+
+The corresponding example pages had already been archived, but Hugo still copied
+their media from `content/` into every build. These files now live alongside the
+archived pages, outside Hugo's content roots:
+
+- `content/event/example/featured.jpg`
+- `content/project/pandas/featured.png`
+- `content/project/pytorch/featured.png`
+- `content/project/scikit/featured.png`
+- `content/teaching/js/featured.jpg`
+- `content/teaching/js/ambient-piano.mp3`
+- `content/teaching/python/featured.jpg`
+- `content/teaching/python/ambient-piano.mp3`
+
+Restore the complete page folder, including its media, if an example is needed.
+Archived profiles and examples are reference material, not verified personal data.

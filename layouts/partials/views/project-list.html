@@ -1,0 +1,28 @@
+{{- $item := .item -}}
+{{- $link := $item.RelPermalink -}}
+{{- $external := false -}}
+{{- with $item.Params.external_link -}}
+  {{- $link = . -}}
+  {{- $external = true -}}
+{{- end -}}
+{{- $resource := partial "functions/get_featured_image.html" $item -}}
+
+<a class="project-card{{ if not $resource }} project-card--text-only{{ end }}" href="{{ $link }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}>
+  {{ with $resource }}
+    {{/* Fit preserves the complete image; Fill would crop it to a square. */}}
+    {{ $image := .Fit "960x640" }}
+    {{ if ne $image.MediaType.SubType "gif" }}
+      {{ $image = $image.Process "webp q85" }}
+    {{ end }}
+    <div class="project-card__media">
+      <img class="project-card__image" src="{{ $image.RelPermalink }}"
+           width="{{ $image.Width }}" height="{{ $image.Height }}"
+           alt="{{ $item.Title | plainify }}" loading="lazy" decoding="async">
+    </div>
+  {{ end }}
+  <div class="project-card__body">
+    <h3 class="project-card__title">{{ $item.Title }}</h3>
+    <p class="project-card__summary">{{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp }}</p>
+    <time class="project-card__date" datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") }}</time>
+  </div>
+</a>

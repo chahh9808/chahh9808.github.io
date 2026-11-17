@@ -2,6 +2,11 @@
 
 This document explains where to edit content, how those edits appear on the site, and how to update safely without affecting production.
 
+`public/index.html` is generated output. Edit the source files below instead;
+Hugo overwrites generated files on the next build. See the
+[2026-11-06 review](WEBSITE_REVIEW_KO.md) for completed cleanup and content decisions
+that still require the owner's confirmation.
+
 ---
 
 ## 1) Most Frequently Edited Files
@@ -151,6 +156,8 @@ The following files were moved to reduce confusion in active content folders:
 - `archive/unused-content/content/project/scikit/index.md`
 
 To restore, move files back under `content/` and re-enable build rendering if needed.
+The corresponding images and audio are also archived alongside these pages;
+restore the whole page folder when its media is needed.
 
 ---
 
@@ -159,8 +166,21 @@ To restore, move files back under `content/` and re-enable build rendering if ne
 ### Add one News item
 1. Open `content/_index.md`
 2. Find the `id: news` block
-3. Add one `<li>...</li>` entry
-4. Save and refresh local preview
+3. Add an item at the top of `content.items` with `date`, `icon`, and `text`
+4. Keep items in reverse chronological order; `count: 10` controls the visible list
+5. Rebuild and refresh local preview. Older items automatically move into the expandable list
+
+Example item:
+
+```yaml
+        - date: 'Apr. 2026'
+          icon: '✈️'
+          text: >-
+            ICLR '26 @ Rio de Janeiro, Brazil (Apr. 23 - 27)
+```
+
+The disclosure UI is in `layouts/partials/blox/news.html`. It uses native HTML
+`details`/`summary`, including keyboard operation, without a JavaScript dependency.
 
 ### Add a Project page/card
 1. Create `content/post/<slug>/index.md`

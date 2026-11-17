@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="line" x1="1600" y1="0" x2="400" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bdbdbd" stop-opacity=".32"/>
+      <stop offset=".6" stop-color="#9c9c9c" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#888" stop-opacity=".04"/>
+    </linearGradient>
+    <radialGradient id="fade">
+      <stop stop-color="white" stop-opacity=".65"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".75" fill="#8c8c8c" fill-opacity=".3"/>
+    </pattern>
+    <mask id="field"><ellipse cx="270" cy="300" rx="800" ry="700" fill="url(#fade)"/></mask>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#dots)" mask="url(#field)"/>
+  <g stroke="url(#line)" stroke-width="1">
+    <path d="M900-140C1560-100 1700 240 1440 520S1050 850 1580 1090"/>
+    <path d="M860-120C1520-80 1660 260 1400 540S1010 870 1540 1110"/>
+    <path d="M820-100C1480-60 1620 280 1360 560S970 890 1500 1130"/>
+    <path d="M780-80C1440-40 1580 300 1320 580S930 910 1460 1150"/>
+    <path d="M740-60C1400-20 1540 320 1280 600S890 930 1420 1170"/>
+    <path d="M700-40C1360 0 1500 340 1240 620S850 950 1380 1190"/>
+    <path d="M660-20C1320 20 1460 360 1200 640S810 970 1340 1210"/>
+    <path d="M620 0C1280 40 1420 380 1160 660S770 990 1300 1230"/>
+    <path d="M580 20C1240 60 1380 400 1120 680S730 1010 1260 1250"/>
+    <path d="M540 40C1200 80 1340 420 1080 700S690 1030 1220 1270"/>
+    <path d="M500 60C1160 100 1300 440 1040 720S650 1050 1180 1290"/>
+    <path d="M460 80C1120 120 1260 460 1000 740S610 1070 1140 1310"/>
+  </g>
+</svg>

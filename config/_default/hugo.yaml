@@ -6,7 +6,7 @@
 # Website name
 title: About Hyeongheon
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://chahh9808.github.io/'
 
 ############################
 ## LANGUAGE
@@ -34,7 +34,7 @@ permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, backlinks]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos

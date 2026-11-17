@@ -17,10 +17,16 @@ authors:
   - admin
   - Haochen Zhao
   - Gaoteng Zhao
-  - Sung-Ju Lee
-  - Cecilia Mascolo
   - Dongyao Chen
+  - Cecilia Mascolo
+  - Sung-Ju Lee
   - Lili Qiu
+
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 
 tags:
   - Mobile sensing

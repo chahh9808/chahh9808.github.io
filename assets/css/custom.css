@@ -1,0 +1,459 @@
+/* Monochrome surfaces; the zinc theme supplies matching link/accent colors. */
+:root {
+  --site-bg: #fafafa;
+  --site-surface: #ffffff;
+  --site-muted-surface: #f4f4f5;
+  --site-text: #18181b;
+  --site-muted: #626266;
+  --site-border: #dedee0;
+  --hero-glow: rgb(0 0 0 / 0.035);
+  --hero-card: rgb(255 255 255 / 0.7);
+  --hero-card-border: rgb(0 0 0 / 0.08);
+  --hero-pattern-opacity: 0.55;
+}
+
+html.dark {
+  --site-bg: #101010;
+  --site-surface: #171717;
+  --site-muted-surface: #1d1d1d;
+  --site-text: #ededed;
+  --site-muted: #a3a3a3;
+  --site-border: #303030;
+  --hero-glow: rgb(255 255 255 / 0.055);
+  --hero-card: rgb(255 255 255 / 0.025);
+  --hero-card-border: rgb(255 255 255 / 0.09);
+  --hero-pattern-opacity: 0.65;
+}
+
+html body.page-wrapper,
+html.dark body.page-wrapper {
+  color: var(--site-text);
+  background: var(--site-bg);
+}
+
+.page-header,
+.page-header .header,
+html.dark .page-header .header {
+  background: var(--site-bg);
+}
+
+.page-header {
+  border-bottom: 1px solid var(--site-border);
+}
+
+.page-footer {
+  border-top: 1px solid var(--site-border);
+}
+
+.monochrome-hero {
+  isolation: isolate;
+  overflow: hidden;
+  border-bottom: 1px solid var(--site-border);
+  background:
+    radial-gradient(ellipse at 18% 26%, var(--hero-glow), transparent 54%),
+    linear-gradient(135deg, var(--site-muted-surface), var(--site-bg) 65%);
+}
+
+.monochrome-hero > .home-section-bg {
+  opacity: var(--hero-pattern-opacity);
+  pointer-events: none;
+  background-image: var(--hero-pattern);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.monochrome-hero::after {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: -1;
+  height: 5rem;
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(transparent, var(--site-bg));
+}
+
+.monochrome-hero .resume-biography {
+  max-width: 72rem;
+  margin-inline: auto;
+  gap: 3rem;
+  align-items: flex-start;
+  padding-inline: 1.5rem;
+}
+
+.monochrome-hero .resume-biography > .flex-none {
+  width: 20rem;
+  max-width: 100%;
+}
+
+.monochrome-hero #profile {
+  padding: 2rem 1.25rem;
+  border: 1px solid var(--hero-card-border);
+  border-radius: 1rem;
+  background: var(--hero-card);
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.monochrome-hero .avatar-wrapper {
+  margin-top: 0;
+}
+
+.monochrome-hero .portrait-title > div:first-child {
+  letter-spacing: -0.035em;
+}
+
+.monochrome-hero .avatar {
+  padding: 0;
+  border: 1px solid var(--site-border);
+}
+
+.monochrome-hero .bio-text h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.monochrome-hero .prose {
+  --tw-prose-body: var(--site-muted);
+  --tw-prose-headings: var(--site-text);
+  --tw-prose-links: var(--site-text);
+  --tw-prose-bold: var(--site-text);
+  --tw-prose-invert-body: var(--site-muted);
+  --tw-prose-invert-headings: var(--site-text);
+  --tw-prose-invert-links: var(--site-text);
+  --tw-prose-invert-bold: var(--site-text);
+}
+
+.monochrome-hero .resume-biography > .flex-auto > .grid {
+  color: var(--site-muted);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hero-card-border);
+}
+
+.monochrome-hero .section-subheading {
+  color: var(--site-text);
+}
+
+.monochrome-hero .network-icon a {
+  color: var(--site-muted);
+  transition: color 160ms ease;
+}
+
+.monochrome-hero .network-icon a:hover {
+  color: var(--site-text);
+}
+
+.monochrome-hero .flex-auto > a {
+  color: var(--site-text);
+  background: var(--site-surface);
+  border-color: var(--site-border);
+  --tw-ring-color: var(--site-border);
+}
+
+.monochrome-hero .flex-auto > a:hover {
+  color: var(--site-text);
+  background: var(--site-muted-surface);
+}
+
+/* Shared presentation for the existing experience, honors, and skills content. */
+.experience-section,
+.leadership-section,
+.awards-section,
+.skills-section {
+  border-top: 1px solid var(--site-border);
+  padding-top: 1rem;
+}
+
+.experience-section h3,
+.leadership-section h3,
+.awards-section h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--site-text);
+}
+
+.experience-section p,
+.leadership-section p,
+.awards-section p,
+.skills-section p {
+  margin: 0.35rem 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.experience-section .location {
+  font-style: italic;
+  color: var(--site-muted);
+}
+
+.skills-section .skill-category {
+  font-weight: 600;
+}
+
+/* The newest ten entries stay visible; older entries use native disclosure. */
+.news-panel {
+  width: 100%;
+  max-width: 68rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.news-heading {
+  margin: 0 0 2rem;
+  color: var(--site-text);
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 6rem 1.5rem minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.75rem;
+  padding-block: 0.75rem;
+  line-height: 1.65;
+  font-size: 1rem;
+}
+
+.news-date {
+  color: var(--site-muted);
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.news-text {
+  min-width: 0;
+  color: var(--site-text);
+}
+
+.news-text a {
+  text-decoration: underline;
+  text-decoration-color: var(--site-muted);
+  text-underline-offset: 0.2em;
+}
+
+.news-text a:hover {
+  text-decoration-color: currentColor;
+}
+
+.news-archive {
+  margin-top: 1.25rem;
+}
+
+.news-archive__toggle {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.25rem 0;
+  border: 0;
+  color: var(--site-muted);
+  background: none;
+  font-size: 0.875rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.news-archive__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.news-archive__toggle:hover {
+  color: var(--site-text);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.news-archive__toggle:focus-visible {
+  outline: 2px solid var(--site-muted);
+  outline-offset: 0.25rem;
+}
+
+.news-archive__label--open,
+.news-archive[open] .news-archive__label--closed {
+  display: none;
+}
+
+.news-archive[open] .news-archive__label--open {
+  display: inline;
+}
+
+.news-list--older {
+  margin-top: 1rem;
+}
+
+/* Quiet rows with landscape previews. Images retain their original proportions. */
+.project-list {
+  width: 100%;
+  max-width: 70rem;
+  padding-inline: 1.5rem;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 17rem minmax(0, 1fr);
+  align-items: center;
+  gap: 2rem;
+  padding-block: 1.75rem;
+  border-bottom: 1px solid var(--site-border);
+  color: var(--site-text);
+  text-decoration: none;
+}
+
+.project-card:last-child {
+  border-bottom: 0;
+}
+
+.project-card--text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.project-card__media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 8 / 5;
+  min-width: 0;
+  padding: 0.5rem;
+  border: 1px solid var(--site-border);
+  border-radius: 0.375rem;
+  background: var(--site-surface);
+}
+
+.project-card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: contain;
+}
+
+.project-card__body {
+  min-width: 0;
+}
+
+.project-card__title {
+  margin: 0;
+  color: var(--site-text);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+}
+
+.project-card__summary {
+  margin-top: 0.65rem;
+  color: var(--site-muted);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.project-card__date {
+  display: block;
+  margin-top: 0.75rem;
+  color: var(--site-muted);
+  font-size: 0.8125rem;
+}
+
+.project-card:hover .project-card__title {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.project-card:focus-visible {
+  outline: 2px solid var(--site-muted);
+  outline-offset: 0.375rem;
+  border-radius: 0.25rem;
+}
+
+#search {
+  --pagefind-ui-primary: var(--site-text);
+  --pagefind-ui-text: var(--site-text);
+  --pagefind-ui-background: var(--site-surface);
+  --pagefind-ui-border: var(--site-border);
+  --pagefind-ui-tag: var(--site-muted-surface);
+}
+
+#search mark {
+  color: var(--site-bg);
+  background: var(--site-text);
+  border-radius: 0.125rem;
+  padding-inline: 0.1em;
+}
+
+@media (max-width: 900px) {
+  .monochrome-hero .resume-biography {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .monochrome-hero .resume-biography > .flex-none {
+    width: 24rem;
+  }
+
+  .monochrome-hero .resume-biography > .flex-auto {
+    width: 100%;
+    max-width: 44rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 639px) {
+  .project-list {
+    padding-inline: 1.25rem;
+  }
+
+  .project-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+
+  .project-card__media {
+    aspect-ratio: 16 / 9;
+  }
+
+  .monochrome-hero .resume-biography > .flex-auto > .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .news-panel {
+    padding-inline: 1.25rem;
+  }
+
+  .news-item {
+    grid-template-columns: 1.25rem minmax(0, 1fr);
+    gap: 0.2rem 0.5rem;
+  }
+
+  .news-date {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .news-item .icon {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .news-text {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .monochrome-hero .network-icon a {
+    transition: none;
+  }
+}

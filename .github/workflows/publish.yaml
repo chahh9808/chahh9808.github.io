@@ -2,6 +2,7 @@ name: Deploy website to GitHub Pages
 
 env:
   WC_HUGO_VERSION: '0.126.1'
+  PAGEFIND_VERSION: '1.6.0'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -52,7 +53,7 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
     - name: Generate Pagefind search index
-      run: npx pagefind --site "public"
+      run: npx --yes pagefind@${{ env.PAGEFIND_VERSION }} --site "public"
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
       with:
