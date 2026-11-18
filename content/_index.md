@@ -38,7 +38,7 @@ sections:
         - date: 'Jan. 2026'
           icon: '📝'
           text: >-
-            Our paper 'Beyond Hearing' is accepted at ICLR '26
+            Our paper '<a href="/publication/beyond-hearing/">Beyond Hearing</a>' is accepted at ICLR '26
         - date: 'Nov. 2025'
           icon: '🌟'
           text: >-
@@ -46,7 +46,7 @@ sections:
         - date: 'Oct. 2025'
           icon: '📝'
           text: >-
-            First author paper 'SNAP' is accepted at NeurIPS '25
+            First author paper '<a href="/publication/snap/">SNAP</a>' is accepted at NeurIPS '25
         - date: 'Jul. 2025'
           icon: '📚'
           text: >-
@@ -54,7 +54,7 @@ sections:
         - date: 'Mar. 2025'
           icon: '📝'
           text: >-
-            Our paper 'From Vision to Motion' is accepted at IEEE TMC
+            Our paper '<a href="/publication/img2imu/">From Vision to Motion</a>' is accepted at IEEE TMC
         - date: 'Jan. 2025'
           icon: '🌟'
           text: >-
@@ -70,11 +70,11 @@ sections:
         - date: 'Apr. 2024'
           icon: '📝'
           text: >-
-            First author poster 'TESLA' accepted at MobiSys '24
+            First author poster '<a href="/publication/tesla-poster/">TESLA</a>' accepted at MobiSys '24
         - date: 'Aug. 2023'
           icon: '📝'
           text: >-
-            Submitted paper 'Sherlock'
+            Submitted paper '<a href="/publication/sherlock/">Sherlock</a>'
         - date: 'Mar. 2022'
           icon: '📚'
           text: >-

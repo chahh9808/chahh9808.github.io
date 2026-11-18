@@ -1,7 +1,61 @@
 # 개인 홈페이지 검토 및 정리
 
-최초 검토: 2026-11-06. 후속 수정: 2026-11-17.
-대상: `chahh9808.github.io` 로컬 저장소, `chore/content-cleanup` 브랜치.
+최초 검토: 2026-11-06. 후속 수정: 2026-11-18.
+대상: `chahh9808.github.io` 로컬 저장소. 현재 작업 브랜치는 아래 작업 기록에 명시합니다.
+
+## 배포 승인 및 최종 검증 — 2026-11-18
+
+소유자가 “문제없으면 배포해”라고 요청하여 신규 논문·프로젝트 2개씩과
+News 논문 제목 링크 5개의 배포를 승인했습니다. 아래 미배포 기록은
+승인 전 작업 이력입니다. 최종 검증 후 `main`에 반영해 기존 GitHub Pages
+워크플로로 배포합니다.
+
+최종 검증 범위: Hugo 프로덕션 빌드, Pagefind 검색 색인, 홈 논문 7편·프로젝트
+10개, 신규 상세 페이지의 상호 링크·대표 이미지, News 제목 링크 5개,
+내부 파일·링크·앵커, ICLR 2027 제출·심사 중 문구 부재. 기존 CV는 유지합니다.
+
+## News 논문 제목 링크 — 2026-11-18
+
+소유자의 요청으로 기존 News의 논문 제목 5개(Beyond Hearing, SNAP,
+From Vision to Motion, TESLA, Sherlock)를 해당 Publications 상세 페이지에
+연결했습니다. `Show more`로 펼치는 이전 소식에도 동일하게 적용했습니다.
+뉴스 문구·날짜·이모지·노출 개수는 유지하며, 신규 소식은 추가하지 않았습니다.
+로컬 빌드·검색 색인 및 링크 대상을 확인했습니다.
+
+## 신규 arXiv 논문·프로젝트 추가 — 로컬 검토 기록
+
+소유자의 요청으로 두 논문을 Publications 및 개별 상세 페이지에 추가했습니다.
+
+- [QuAR](https://arxiv.org/abs/2610.08358): `content/publication/quar/index.md`
+- [Later Is Better](https://arxiv.org/abs/2610.07758): `content/publication/later-is-better/index.md`
+
+arXiv의 제목·저자 순서·최초 제출 시각·DOI를 반영하고 두 논문 모두
+`arXiv preprint`로 표기했습니다. 본인 이름은 기존 `admin` 프로필에 연결합니다.
+Abstract와 카드 Summary는 논문의 핵심을 간결히 정리했으며,
+PDF·arXiv·공식 GitHub 코드 링크를 함께 제공합니다.
+
+후속 요청으로 두 논문에 대응하는 Projects 상세 페이지도 추가했습니다.
+
+- QuAR: `content/post/quar/index.md`
+- Later Is Better: `content/post/later-is-better/index.md`
+
+기존 프로젝트 형식에 맞춰 제1저자 표기, 연구 목표·방법, 주요 결과와 링크를
+작성했습니다. 홈 Projects 목록의 첫 두 항목으로 노출하며, Publications의
+Project 버튼과 각 프로젝트의 Publication details 링크로 서로 연결합니다.
+대표 이미지는 [QuAR 공식 코드의 방법 개요](https://github.com/chahh9808/QuAR/blob/main/figures/fig_overview.png)와
+[Later Is Better 논문의 Figure 1](https://arxiv.org/html/2610.07758v1#S1.F1)을 사용했습니다.
+홈 이미지의 원본 비율을 유지하며 정사각형으로 자르지 않습니다.
+
+작업 브랜치는 `content/add-arxiv-preprints`입니다. 배포 승인 전에는
+커밋·push·배포를 보류하고 기존 `main` 및 원격 추적 브랜치를 유지했습니다.
+2026-11-18 소유자의 배포 요청으로 보류를 해제했습니다.
+
+검증 결과: 홈페이지 논문 7편·프로젝트 10개, 생성 HTML 85개, 검색 문서 53개.
+Hugo 빌드와 Pagefind 생성을 통과했으며, 신규 논문·프로젝트의 노출 순서와
+상호 링크, 이미지 비율 보존, 프로젝트 상세 페이지의 검색 포함을 확인했습니다.
+로컬 HTTP 응답은 정상이며 내부 파일·링크·앵커 대상 누락은 없습니다.
+
+로컬 확인: `http://127.0.0.1:1313/?preview=arxiv-projects#projects`.
 
 ## 처리한 항목
 
@@ -43,7 +97,7 @@
 - **ORCID·LinkedIn:** 소유자가 현재 링크 유지를 선택했으므로 변경하지 않았습니다.
 - **경력·수상 스타일:** 아래 모노톤 디자인 변경 과정에서 반복 인라인 스타일을 공통 CSS로 분리했습니다. 내용은 유지했습니다.
 
-현재 확인 요청에 대한 답변 대기는 없습니다. 커밋·push·배포는 별도 요청 없이 진행하지 않습니다.
+현재 확인 요청에 대한 답변 대기는 없습니다. 최신 배포 승인은 상단 기록을 참고하세요.
 
 ## 모노톤 디자인 변경 — 2026-11-17
 
