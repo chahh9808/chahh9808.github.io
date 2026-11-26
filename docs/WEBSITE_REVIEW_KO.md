@@ -1,7 +1,61 @@
 # 개인 홈페이지 검토 및 정리
 
-최초 검토: 2026-11-06. 후속 수정: 2026-11-18.
+최초 검토: 2026-11-06. 후속 수정: 2026-11-26.
 대상: `chahh9808.github.io` 로컬 저장소. 현재 작업 브랜치는 아래 작업 기록에 명시합니다.
+
+## 배포 승인 및 최종 검증 — 2026-11-26
+
+소유자가 “문제없으면 배포해”라고 요청하여 아래 변경사항의 배포를 승인했습니다.
+
+- Academic Service: MobiCom·MobiSys `2023–2026`, NeurIPS `2026` 리뷰 활동.
+- Honors: NeurIPS `Top Reviewer`(비율 없음), `Dean's List / Top 2%`.
+- Sherlock 뉴스: 원고 완성 문구와 기존 논문 링크.
+- 소개문: 인턴 경력 두 건을 한 문장으로 정리.
+
+Hugo 프로덕션 빌드·Pagefind, 표시 문구와 검색 포함, 내부 링크·앵커 및
+기존 콘텐츠 보존을 최종 검증한 뒤 `main`에 반영해 GitHub Pages로 배포합니다.
+
+## 학회 리뷰 활동 및 Top Reviewer — 2026-11-26
+
+소유자가 직접 제공한 활동·수상 내역으로 추가했습니다.
+
+- Honors 첫 항목: `2026 / Top Reviewer / NeurIPS`.
+- Honors 다음의 작은 Academic Service 섹션: Conference Reviewer 역할과
+  MobiCom `2023–2026`, MobiSys `2023–2026`, NeurIPS `2026`을 세 줄로 표시.
+- 기존 모노톤에 맞춰 학회명·연도만 간결하게 배치했습니다.
+
+작업 브랜치: `content/reviewer-service`. 소유자의 배포 승인 전까지
+커밋·push·배포를 보류했습니다. CV와 News에는 별도 항목을 추가하지 않았습니다.
+
+후속 요청으로 기존 Sherlock 뉴스의 문구를
+`Completed the manuscript for 'Sherlock'`로 바꿨습니다.
+논문 원고 완성이라는 뜻으로 표기하며 기존 날짜·제목 링크는 유지했습니다.
+
+소개문에서 반복되던 `I was a research intern` 두 문장을 한 문장으로 묶었습니다.
+MSRA·InBody의 기관명·기간과 MSRA의 Lili Qiu 지도 정보, 기존 링크는 유지했습니다.
+
+검증: Hugo 빌드·Pagefind 검색 색인 생성 통과, 항목·연도·섹션 순서 및 검색 포함
+확인. Safari에서 Honors의 Top Reviewer와 Academic Service의 세 줄 배치를
+시각 확인했습니다. 로컬 미리보기: `http://127.0.0.1:1313/?preview=reviewer-service#honors`.
+
+### 수상 표기 확인 — 2026-11-26
+
+- NeurIPS 2026: [공식 Program Committee 명단](https://neurips.cc/Conferences/2026/ProgramCommittee#main-reviewer-top-reviewer)에서
+  본인이 Top Main Reviewers에 포함됨을 확인했습니다.
+  **소유자의 결정에 따라 비율·인원수는 표기하지 않습니다.**
+  홈페이지에는 `2026 / Top Reviewer / NeurIPS`만 표시합니다.
+- Dean's List: 소유자가 **새내기과정학부 성적우수상**임을 확인했습니다.
+  [2017년 11월 20일 당시 공식 공지](https://freshman.kaist.ac.kr/ko/board/news/view.do?docSeq=24750)의
+  [첨부 안내문](https://freshman.kaist.ac.kr/fileDownload.do?attDownloadId=aefc8b8a83744abd9381c377defc4436)을 확인했습니다.
+  성적 80%와 오블리제 점수 20%의 합산으로 기본 2% 이내를 선정하고,
+  창의우수상 대상자가 없으면 성적우수상을 3% 이내까지 선정합니다.
+  **소유자가 본인의 수상은 상위 2%가 맞다고 확인했습니다.**
+  홈페이지 제목을 `Dean's List`로 통일했습니다. 소유자의 후속 요청에 따라
+  새내기·성적우수상 설명은 생략하고 `Top 2%`만 표시합니다.
+  관련 확인 대기는 종료했습니다.
+
+NeurIPS 비율을 제거하고 Dean's List 상위 2%를 반영한 상태로 빌드·검색
+색인을 갱신했습니다. 최종 배포 승인은 상단 기록을 참고하세요.
 
 ## 배포 승인 및 최종 검증 — 2026-11-18
 

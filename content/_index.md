@@ -74,7 +74,7 @@ sections:
         - date: 'Aug. 2023'
           icon: '📝'
           text: >-
-            Submitted paper '<a href="/publication/sherlock/">Sherlock</a>'
+            Completed the manuscript for '<a href="/publication/sherlock/">Sherlock</a>'
         - date: 'Mar. 2022'
           icon: '📚'
           text: >-
@@ -169,6 +169,10 @@ sections:
       text: |
         <div class="awards-section">
           <p><strong>2026</strong></p>
+          <h3>Top Reviewer</h3>
+          <p>NeurIPS</p>
+
+          <p><strong>2026</strong></p>
           <h3>Stars of Tomorrow Award</h3>
           <p>Microsoft Research Asia</p>
 
@@ -182,10 +186,27 @@ sections:
           <p>One person per department, provided until graduation</p>
 
           <p><strong>2017</strong></p>
-          <h3>Dean's list</h3>
+          <h3>Dean's List</h3>
           <p>Korea Advanced Institute of Science and Technology</p>
-          <p>Outstanding student in the department</p>
+          <p>Top 2%</p>
         </div>
+
+  - block: markdown
+    id: academic-service
+    content:
+      title: Academic Service
+      text: |
+        <div class="service-section">
+          <p class="service-role">Conference Reviewer</p>
+          <dl class="reviewer-list">
+            <div><dt>MobiCom</dt><dd>2023–2026</dd></div>
+            <div><dt>MobiSys</dt><dd>2023–2026</dd></div>
+            <div><dt>NeurIPS</dt><dd>2026</dd></div>
+          </dl>
+        </div>
+    design:
+      spacing:
+        padding: ['2rem', '1.5rem']
 
   - block: markdown
     id: skills

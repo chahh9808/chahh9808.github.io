@@ -156,10 +156,11 @@ html.dark .page-header .header {
   background: var(--site-muted-surface);
 }
 
-/* Shared presentation for the existing experience, honors, and skills content. */
+/* Shared presentation for experience, honors, service, and skills content. */
 .experience-section,
 .leadership-section,
 .awards-section,
+.service-section,
 .skills-section {
   border-top: 1px solid var(--site-border);
   padding-top: 1rem;
@@ -190,6 +191,44 @@ html.dark .page-header .header {
 
 .skills-section .skill-category {
   font-weight: 600;
+}
+
+/* A compact record of conference reviewing, without cards or badges. */
+.service-section {
+  width: min(28rem, calc(100vw - 3rem));
+}
+
+.service-section .service-role {
+  margin: 0 0 0.75rem;
+  color: var(--site-muted);
+  font-size: 0.8125rem;
+  line-height: 1.65;
+}
+
+.reviewer-list {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.reviewer-list > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding-block: 0.35rem;
+}
+
+.reviewer-list dt {
+  margin: 0;
+  color: var(--site-text);
+  font-weight: 600;
+}
+
+.reviewer-list dd {
+  margin: 0;
+  color: var(--site-muted);
+  font-variant-numeric: tabular-nums;
 }
 
 /* The newest ten entries stay visible; older entries use native disclosure. */
